@@ -63,6 +63,8 @@
                 const user = result.user;
                 // IdP data available using getAdditionalUserInfo(result)
                 // ...
+                alert(user.displayName);
+                
             }).catch((error) => {
                 // Handle Errors here.
                 const errorCode = error.code;
