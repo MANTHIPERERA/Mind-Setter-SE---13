@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sing In</title>
+    <title>Sign In</title>
     <link rel="stylesheet" type="text/css" href="CSS/stylesForSign.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <link rel = "stylesheet" href="CSS/styles.css">
+    <script src="Javascript/index.js" defer></script>
+    <script src = "Javascript/GoogleSignIn.js" defer></script>
+    
+    
 </head>
 <body>
 
@@ -24,7 +28,7 @@
             <h4>Please fill the following details.</h4>
 
 
-            <form action="mailto:kumodhansidu@gamil.com" method="post">
+            <form method="post" id = "UserDetailsSignUp">
 
                 <fieldset>
 
@@ -41,7 +45,8 @@
                     <label for="Remember">Remember me</label> <br/><br/>
 
                     <input type="submit" name="send" value="Sign In"> <br/><br/>
-                    This page is to test google sign in with fire base authentication <br>
+                    
+                    or <br><br>
 
                     <button type="button" class="btn btn-outline-secondary" id = "login" ><i class="fab fa-google"></i> &nbsp Sign In with Google</button>
 
@@ -68,6 +73,9 @@
     </tr>
 
 </table>
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
 </body>
 
 <script type="module">
@@ -83,6 +91,7 @@
     const firebaseConfig = {
         apiKey: "AIzaSyCMZlmgAFgHPrXAuX_MKgvWWNXd93qihwk",
         authDomain: "mind-setter.firebaseapp.com",
+        databaseURL: "https://mind-setter-default-rtdb.firebaseio.com",
         projectId: "mind-setter",
         storageBucket: "mind-setter.appspot.com",
         messagingSenderId: "357523284413",
