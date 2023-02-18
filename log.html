@@ -2,86 +2,8 @@
 <html>
 <head>
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="stylelogin.css">
-    <style>
-            .container {
-                display: flex;
-                flex-direction: row;
-                height: 100vh;
-            }
-
-            .img {
-                flex: 1;
-                background-image: url('image.jpg');
-                background-size: cover;
-            }
-
-            .login-form {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 50px;
-            }
-            h1{
-                padding-right: 380px;   
-            }
-            p {
-                margin-bottom: 20px;
-                padding-right: 180px; 
-            }
-
-
-            label {
-                display: block;
-            
-            }
-
-            input[type="text"],
-            input[type="password"] {
-                padding: 10px;
-                margin-bottom: 20px;
-                width: 80%;
-                border: none;
-                border-radius: 5px;
-                box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-            }
-
-            input[type="submit"] {
-                background-color: #0a0b0a;
-                color: white;
-                padding: 10px;
-                border: none;
-                border-radius: 7px;
-                cursor: pointer;
-                width: 400px;
-            }
-
-            .btn {
-                background-color: #baccba;
-                border: none;
-                color: black;
-                padding: 10px 20px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                cursor: pointer;
-                border-radius: 5px;
-                }
-
-                .btn-icon {
-                background-image: url('Assets/google_icon.png');
-                background-size: contain;
-                background-repeat: no-repeat;
-                width: 100px;
-                height: 16px;
-                display: inline-block;
-                margin-right: 5px;
-                vertical-align: middle;
-                }
-    </style>
+	<link rel="stylesheet" type="text/css" href="CSS/stylelogin.css">
+   
 </head>
 <body>
 	<div class="container">
@@ -94,19 +16,27 @@
             <p>Please fill in your details to access to your account</p>
 
 			<form method="post" action="login.php">
-				<label for="Email">Email:</label><br>
-				<input type="text" id="email" name="email"><br><br>
+				<label for="Email" >Email: </label><br>
+
+				<input type="text" id="email" name="email" placeholder="jhon@example.com"><br><br>
+
 				<label for="password">Password:</label><br>
-				<input type="password" id="password" name="password"><br><br>
+
+				<input type="password" id="password" name="password" placeholder="Password"><br><br>
+
                 <input type="checkbox" onclick="passwordVisible()" style="width: initial; height: initial; display: inline;">
+                
                 <small style="display: inline;"> Remember me </small>
+                
                 <a href="a" style="text-align:justify; padding-left: 180px; text-decoration:none; color:green;"> Forgot Password ?</a><br><br><br>
-				<input type="submit" value="Login"><br><br>
+				
+                <input type="submit" value="Login"><br><br>
+                
                 <button class="btn" style="padding-right:150px;">
                     <span class="btn-icon"></span>
                     Sign in with google
                   </button>
-                  <p>Don't have an account?<a href="a"  style="text-align:justify; padding-left: 50px; color:green; text-decoration:none;">Sign in</a></p>
+                  <p>Don't have an account?<a href="SignIn.html"  style="text-align:justify; padding-left: 50px; color:green; text-decoration:none;">Sign Up</a></p>
 			</form>
 
 		</div>
