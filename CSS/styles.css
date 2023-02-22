@@ -43,3 +43,8 @@
 .card-body{
     font-size: 16px;
 }
+
+#footersection{
+    background-color: #EEFFFC;
+    height: 200px;
+}
