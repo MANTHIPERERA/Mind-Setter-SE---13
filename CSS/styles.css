@@ -5,15 +5,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
-    background-color: #baccba;
+.btn1 {
+    position: relative;
+
+    background-color: #222222;
+    left: 50px;
     border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
+    color: #00FFD1;
+    padding: 10px 120px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+    font-size: 24px;
+    border-radius: 10px;
     }
+
+
+
+.btn1:hover{background-color: #00FFD1;
+            color: #222222;
+}
+
