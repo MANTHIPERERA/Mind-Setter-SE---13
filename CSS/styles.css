@@ -35,9 +35,11 @@
     height: 650px;
 }
    
-.card-group{
- width: 80rem;
- border-radius: 10px;
+.col{
+ width: 14rem;
+ border-radius: 16px;
+ position: relative;
+ left: 80px;
 }
 
 .card-body{
