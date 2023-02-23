@@ -1,8 +1,40 @@
 .container-xxl{
     background-color: #343333;
-    padding: 2rem;
     color:#0ABE9E;
     font-family: "jost";
-    font-size: 2rem;
     
+    
+}
+.carousel-item{
+    width: 100%;
+  height: auto;
+}
+.container-xl{
+    background-color: #EEFFFC;
+    color:#0ABE9E;
+    font-family: "jost";
+    
+    
+}
+.container-xlll{
+    background-color: #343333;
+    color:#0ABE9E;
+    font-family: "jost";
+    
+}
+.btn1{
+    background-color: #222222;
+    border: none;
+    color: #00FFD1;
+    max-width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    font-family:"jost";
+    font-size: 36px;
+    border-radius: 10px;
+    
+}
+
+.btn1:hover{background-color: #00FFD1;
+    color: #222222;
 }
