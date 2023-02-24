@@ -4,6 +4,7 @@
     font-family: "jost";
     
     
+    
 }
 .carousel-item{
     width: 100%;
@@ -16,6 +17,13 @@
     
     
 }
+.d-grid{
+    background-color: #EEFFFC;
+    color:#0ABE9E;
+    font-family: "jost";
+
+    
+}
 .container-xlll{
     background-color: #343333;
     color:#0ABE9E;
@@ -26,7 +34,7 @@
     background-color: #222222;
     border: none;
     color: #00FFD1;
-    max-width: 200px;
+    max-width: 300px;
     text-decoration: none;
     display: inline-block;
     font-family:"jost";
@@ -34,7 +42,25 @@
     border-radius: 10px;
     
 }
+.btn2{
+    
+    text-decoration: none;
+    display: inline-block;
+    font-family:"jost";
+    font-size: 24px;
+    border-radius: 10px;
+    
+}
 
 .btn1:hover{background-color: #00FFD1;
     color: #222222;
+}
+.navbar-nav{
+    font-size: 24px;
+}
+
+
+.row1{
+    color:#222222;
+    font-family: "jost";
 }
