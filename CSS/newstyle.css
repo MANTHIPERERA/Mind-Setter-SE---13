@@ -42,21 +42,13 @@
     border-radius: 10px;
     
 }
-.btn2{
-    
-    text-decoration: none;
-    display: inline-block;
-    font-family:"jost";
-    font-size: 24px;
-    border-radius: 10px;
-    
-}
 
 .btn1:hover{background-color: #00FFD1;
     color: #222222;
+    transition: 0.5s;
 }
 .navbar-nav{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 
