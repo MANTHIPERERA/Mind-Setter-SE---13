@@ -34,12 +34,13 @@
     background-color: #222222;
     border: none;
     color: #00FFD1;
-    max-width: 300px;
     text-decoration: none;
     display: inline-block;
     font-family:"jost";
-    font-size: 36px;
+    font-size: 2.5rem;
     border-radius: 10px;
+    width: 35%;
+
     
 }
 
