@@ -1,0 +1,19 @@
+.btn2{
+    background-color: #222222;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-family:"jost";
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 20rem;
+
+    
+}
+.form1-group{
+    width: 63%;
+   
+   
+}
