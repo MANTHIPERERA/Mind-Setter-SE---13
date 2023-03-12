@@ -17,6 +17,7 @@ def BuildAntiTestSetForUser(testSubject, trainset):
                              i not in user_items]
     return anti_testset
 
+
 @views.route("/recommendations/")
 def home():
     # Pick an arbitrary test subject
