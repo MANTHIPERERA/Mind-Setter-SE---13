@@ -17,6 +17,11 @@ def BuildAntiTestSetForUser(testSubject, trainset):
                              i not in user_items]
     return anti_testset
 
+@views.route("/ButtonPage/")
+def Button():
+    return render_template("RecomSysTest.html")
+
+
 
 @views.route("/recommendations/")
 def home():
