@@ -4,6 +4,13 @@ from surprise import SVD
 
 views = Blueprint(__name__,"views")
 
+@views.route("/ButtonPage/")
+def Button():
+    return render_template("RecomSysTest.html")
+
+
+
+
 def BuildAntiTestSetForUser(testSubject, trainset):
     fill = trainset.global_mean
 
@@ -16,12 +23,6 @@ def BuildAntiTestSetForUser(testSubject, trainset):
                              i in trainset.all_items() if
                              i not in user_items]
     return anti_testset
-
-@views.route("/ButtonPage/")
-def Button():
-    return render_template("RecomSysTest.html")
-
-
 
 @views.route("/recommendations/")
 def home():
