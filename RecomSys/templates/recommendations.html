@@ -59,22 +59,60 @@
 
   </section >
 
-  <div class = "container">
+  <div class="container text-left">
+    <div class="row">
 
-    <input class = 'btn3' type = 'button' value = 'Watched Videos'> <br>
-    <input type = 'button' value = 'Explore'> <br>
-    <input type = 'button' value = 'My Progress'> <br>
+      <div class="col-md-4 p-3">
 
+        <div class = "shadow-lg p-4 mb-5 bg-body-tertiary rounded">
+          
+            <button type="button" class="btn btn-outline-primary m-3 rounded-4">Watched Videos</button> <br>
+            <button type="button" class="btn btn-outline-primary m-3 rounded-4">Explore</button> <br>
+            <button type="button" class="btn btn-outline-primary m-3 rounded-4">My Progress</button> <br><br>
+
+
+            <div class="card bg-dark text-white md-4 rounded-4" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Time Spent</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">--Time summary goes here --</p>
+
+              </div>
+            </div>
+
+            <div class = "container text-left m-3">
+              Keep working, <br>
+              You're doing great!
+              
+            </div>
+
+        </div>
+
+        
+
+      </div>
+
+
+      <div class="col-md-8 p-3">
+        <h1>Recommended Movies:</h1>
+
+    
+        <ul>
+          {% for movie in recommended_movies %}
+            <li>{{ movie }}</li>
+          {% endfor %}
+        </ul>
+        
+        
+      </div>
+
+    
+    </div>
   </div>
 
 
-    <h1>Recommended Movies:</h1>
+
 
     
-    <ul>
-      {% for movie in recommended_movies %}
-        <li>{{ movie }}</li>
-      {% endfor %}
-    </ul>
   </body>
 </html>
