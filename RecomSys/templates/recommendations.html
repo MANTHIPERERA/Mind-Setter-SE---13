@@ -94,12 +94,13 @@
 
 
       <div class="col-md-8 p-3">
-        <h1>Recommended Movies:</h1>
+        <h1>Recommended Lessons for you:</h1>
 
     
         <ul>
           {% for movie in recommended_movies %}
-            <li>{{ movie }}</li>
+            <iframe width="300"  src="https://www.youtube.com/embed/D0UnqGm_miA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <li>{{ movie }}</li><br>
           {% endfor %}
         </ul>
         
