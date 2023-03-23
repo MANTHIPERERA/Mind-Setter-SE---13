@@ -13,11 +13,27 @@
     
 }
 .form1-group{
-    width: 63%;
+    width: 24rem;
    
    
+}
+#madda{
+    display: flex;
+    justify-content: center;
 }
 body {
     
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
+  .circle {
+    width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    background: #000
+    
+  }
+  
