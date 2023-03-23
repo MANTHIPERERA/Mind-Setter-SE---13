@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< Updated upstream
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -16,5 +17,11 @@
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
+=======
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="" />
+    </include_path>
+>>>>>>> Stashed changes
   </component>
 </project>
