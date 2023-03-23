@@ -75,3 +75,7 @@ input[type="submit"] {
     margin-right: 5px;
     vertical-align: middle;
     }
+    body {
+    
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }

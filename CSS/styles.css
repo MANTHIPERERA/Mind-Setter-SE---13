@@ -51,3 +51,7 @@
     background-color: #EEFFFC;
     height: 200px;
 }
+body {
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }

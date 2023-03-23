@@ -6,3 +6,7 @@ height: 1px;
 background: #eee;
 }
 
+body {
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }

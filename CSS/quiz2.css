@@ -173,3 +173,7 @@ section .card .image img{
   opacity: 1;
   color: white;
 }
+.body {
+    
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}

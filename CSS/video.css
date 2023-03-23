@@ -60,3 +60,7 @@ body {
     width: 20rem;
 
 }
+body {
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
