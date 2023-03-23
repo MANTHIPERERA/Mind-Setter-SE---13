@@ -16,7 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
 //    var_dump($user);
 //    exit;
-//Test
 
     if ($user) {
 
