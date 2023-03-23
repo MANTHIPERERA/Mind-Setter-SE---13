@@ -57,6 +57,8 @@ if (isset($_SESSION["user_id"])) {
 
     <p>You are logged in.</p>
 
+
+
     <p><a href="logout.php">Log out</a></p>
 
 

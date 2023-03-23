@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393a4ecc-f946-420c-afdd-b456d1466fb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/stylesForSign.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/4002785 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/4002785 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/SliderImage1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/SliderImage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/SliderImage3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/Teacher1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/Teacher2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/google_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/header.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/login_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Assets/setacc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/Forgot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/newstyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/setAcc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/styleForSign.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/stylelogin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/CSS/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Javascript/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/Javascript/validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/process-singup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/singup-success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/singup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/singup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mind_Setter/validate-email.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignIn.html" beforeDir="false" />
+    <list default="true" id="393a4ecc-f946-420c-afdd-b456d1466fb3" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +33,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -77,6 +45,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c0d06742-1cf5-4aec-9c4d-a717ec565295" />
+        <option name="url" value="https://github.com/MANTHIPERERA/Mind-Setter-SE---13.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,19 +63,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration name="first-index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind_Setter/first-index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -188,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
