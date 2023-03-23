@@ -17,13 +17,7 @@
     
     
 }
-.d-grid{
-    background-color: #EEFFFC;
-    color:#0ABE9E;
-    font-family: "jost";
 
-    
-}
 .container-xlll{
     background-color: #343333;
     color:#0ABE9E;
@@ -40,6 +34,7 @@
     font-size: 2.5rem;
     border-radius: 10px;
     width: 35%;
+    margin-right: 3rem;
 
     
 }
