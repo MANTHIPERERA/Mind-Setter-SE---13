@@ -7,7 +7,7 @@ def BuildAntiTestSetForUser(testSubject, trainset):
 
     anti_testset = []
     
-    u = trainset.to_inner_uid(str(testSubject))
+    u = trainset.to_inner_uid(str(trainset.to_raw_uid(testSubject)))
     
     user_items = set([j for (j, _) in trainset.ur[u]])
     anti_testset += [(trainset.to_raw_uid(u), trainset.to_raw_iid(i), fill) for
@@ -24,6 +24,7 @@ print("Loading movie ratings...")
 data = ml.loadMovieLensLatestSmall()
 
 userRatings = ml.getUserRatings(testSubject)
+print("Number of ratings for user", testSubject, ":", len(userRatings)) #Added for testing purposes
 loved = []
 hated = []
 for ratings in userRatings:
