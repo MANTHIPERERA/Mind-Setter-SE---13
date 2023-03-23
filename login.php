@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
 //    var_dump($user);
 //    exit;
+//Test
 
     if ($user) {
 
@@ -120,7 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
                         <button type="button" class="btn btn-primary btn-lg"
                                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Sign in with google</button>
 
-                        <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="singup.php"
+                        <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="singup.html"
                                                                                           class="link-danger"style=" color:#0FE8C1;">Sign Up</a></p>
                     </div>
 
