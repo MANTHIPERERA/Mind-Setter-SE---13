@@ -5,6 +5,7 @@
     
     
     
+    
 }
 .carousel-item{
     width: 100%;
@@ -14,6 +15,7 @@
     background-color: #EEFFFC;
     color:#0ABE9E;
     font-family: "jost";
+    
     
     
 }
@@ -31,7 +33,7 @@
     text-decoration: none;
     display: inline-block;
     font-family:"jost";
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     border-radius: 10px;
     width: 35%;
     margin-right: 3rem;
@@ -57,3 +59,8 @@ body {
    
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
+
+
+
+
+
