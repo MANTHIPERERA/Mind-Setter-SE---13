@@ -8,9 +8,6 @@ views = Blueprint(__name__,"views")
 def Button():
     return render_template("RecomSysTest.html")
 
-
-
-
 def BuildAntiTestSetForUser(userId, trainset):
     fill = trainset.global_mean
 
@@ -23,6 +20,8 @@ def BuildAntiTestSetForUser(userId, trainset):
                              i in trainset.all_items() if
                              i not in user_items]
     return anti_testset
+
+
 
 @views.route("/recommendations/<userId>",methods=["GET"])
 def home(userId):
