@@ -1,48 +1,50 @@
-import os
-import csv
-import sys
-import re
+import os #allows run commands in python scripts
+import csv #(comma seperated values), imports functionality to read csv files
+import sys #imports sys module to, later used with sys.argv 
+import re #imports re module to use regular expressions
 
-from surprise import Dataset
-from surprise import Reader
+from surprise import Dataset   #imports Dataset class from surprise module
+from surprise import Reader    #imports Reader class from surprise module
 
-from collections import defaultdict
-import numpy as np
+from collections import defaultdict #imports defaultdict class from collections module
+import numpy as np            #imports numpy module (Numeric computing)
 
-class MovieLens:
+class MovieLens: #creates class MovieLens
 
-    movieID_to_name = {}
-    name_to_movieID = {}
-    ratingsPath = '../ml-latest-small/ratings.csv'
-    moviesPath = '../ml-latest-small/movies.csv'
+    movieID_to_name = {}  #creates dictionary movieID_to_name
+    name_to_movieID = {}  #creates dictionary name_to_movieID
+    ratingsPath = '../ml-latest-small/ratings.csv' #creates variable with relative path named ratingsPath to access the ratings.csv file
+    moviesPath = '../ml-latest-small/movies.csv'  #creates variable with relative path named moviesPath to access the movies.csv file
     
-    def loadMovieLensLatestSmall(self):
+    def loadMovieLensLatestSmall(self): #creates function loadMovieLensLatestSmall
 
         # Look for files relative to the directory we are running from
         os.chdir(os.path.dirname(sys.argv[0]))
 
-        ratingsDataset = 0
-        self.movieID_to_name = {}
-        self.name_to_movieID = {}
+        ratingsDataset = 0 #creates variable ratingsDataset and sets it to 0
+        self.movieID_to_name = {}  #creates dictionary movieID_to_name as an instance variable
+        self.name_to_movieID = {}  #creates dictionary name_to_movieID as an instance variable
 
-        reader = Reader(line_format='user item rating timestamp', sep=',', skip_lines=1)
+        reader = Reader(line_format='user item rating timestamp', sep=',', skip_lines=1) 
+        #creates variable reader and sets it to Reader class with line_format as mentioned above that splits data with ',' and skip_lines is set to skip line 1 parameters
 
         ratingsDataset = Dataset.load_from_file(self.ratingsPath, reader=reader)
 
-        with open(self.moviesPath, newline='', encoding='ISO-8859-1') as csvfile:
-                movieReader = csv.reader(csvfile)
+        with open(self.moviesPath, newline='', encoding='ISO-8859-1') as csvfile: #opens movies.csv file
+                movieReader = csv.reader(csvfile) #Reads csv file and return an iterator object
                 next(movieReader)  #Skip header line
                 for row in movieReader:
                     movieID = int(row[0])
                     movieName = row[1]
-                    self.movieID_to_name[movieID] = movieName
-                    self.name_to_movieID[movieName] = movieID
+                    self.movieID_to_name[movieID] = movieName #adds movieID and movieName to movieID_to_name dictionary
+                    self.name_to_movieID[movieName] = movieID #adds movieName and movieID to name_to_movieID dictionary
 
-        return ratingsDataset
+        return ratingsDataset 
 
-    def getUserRatings(self, user):
-        userRatings = []
-        hitUser = False
+    def getUserRatings(self, user): 
+        #gets a user and returns a list of tuples with movieID and rating corresponding to that user
+        userRatings = [] #creates empty list userRatings
+        hitUser = False #creates variable hitUser and sets it to False
         with open(self.ratingsPath, newline='') as csvfile:
             ratingReader = csv.reader(csvfile)
             next(ratingReader)
@@ -56,9 +58,9 @@ class MovieLens:
                 if (hitUser and (user != userID)):
                     break
 
-        return userRatings
+        return userRatings #returns list with user ratings
 
-    def getPopularityRanks(self):
+    def getPopularityRanks(self):  #Calculates the popularity of each movie and returns a dictionary with movieID and rank
         ratings = defaultdict(int)
         rankings = defaultdict(int)
         with open(self.ratingsPath, newline='') as csvfile:
@@ -68,21 +70,21 @@ class MovieLens:
                 movieID = int(row[1])
                 ratings[movieID] += 1
         rank = 1
-        for movieID, ratingCount in sorted(ratings.items(), key=lambda x: x[1], reverse=True):
+        for movieID, ratingCount in sorted(ratings.items(), key=lambda x: x[1], reverse=True):  #extracts the second element of each tuple
             rankings[movieID] = rank
             rank += 1
         return rankings
     
     def getGenres(self):
-        genres = defaultdict(list)
-        genreIDs = {}
+        genres = defaultdict(list) #creates a dictionary with default value as a list
+        genreIDs = {} #creates a dictionary to store genreIDs
         maxGenreID = 0
         with open(self.moviesPath, newline='', encoding='ISO-8859-1') as csvfile:
             movieReader = csv.reader(csvfile)
             next(movieReader)  #Skip header line
             for row in movieReader:
                 movieID = int(row[0])
-                genreList = row[2].split('|')
+                genreList = row[2].split('|') #creates list with assosiacted geners for each movie
                 genreIDList = []
                 for genre in genreList:
                     if genre in genreIDs:
@@ -102,7 +104,7 @@ class MovieLens:
         
         return genres
     
-    def getYears(self):
+    def getYears(self):  #Function not used in this project, although, it gets the year of release of each movie
         p = re.compile(r"(?:\((\d{4})\))?\s*$")
         years = defaultdict(int)
         with open(self.moviesPath, newline='', encoding='ISO-8859-1') as csvfile:
@@ -117,7 +119,7 @@ class MovieLens:
                     years[movieID] = int(year)
         return years
     
-    def getMiseEnScene(self):
+    def getMiseEnScene(self): #this function gets the Mise en Scene features of each movie
         mes = defaultdict(list)
         with open("LLVisualFeatures13K_Log.csv", newline='') as csvfile:
             mesReader = csv.reader(csvfile)
@@ -135,13 +137,13 @@ class MovieLens:
                    meanMotion, stddevMotion, meanLightingKey, numShots]
         return mes
     
-    def getMovieName(self, movieID):
+    def getMovieName(self, movieID): #gets movieID and returns movieName
         if movieID in self.movieID_to_name:
             return self.movieID_to_name[movieID]
         else:
             return ""
         
-    def getMovieID(self, movieName):
+    def getMovieID(self, movieName): #gets movieName and returns movieID
         if movieName in self.name_to_movieID:
             return self.name_to_movieID[movieName]
         else:
