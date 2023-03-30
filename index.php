@@ -16,7 +16,6 @@ if (isset($_SESSION["user_id"])) {
 }
 
 ?>
-<br>
 
 <!DOCTYPE html>
 <html>
