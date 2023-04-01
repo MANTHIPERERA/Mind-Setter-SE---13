@@ -41,7 +41,7 @@ if (isset($_SESSION["user_id"])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Marvel:wght@700&display=swap"
           rel="stylesheet">
-    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <link rel=”stylesheet” href=”CSS/bootstrap-responsive.css”>
 
     <title>Mind - Setter</title>
 </head>
@@ -53,13 +53,7 @@ if (isset($_SESSION["user_id"])) {
 
 <?php if (isset($user)): ?>
 
-    <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
-
-    <p>You are logged in.</p>
-
-
-
-    <p><a href="logout.php">Log out</a></p>
+    <?php include "studentprofile.html";?>
 
 
 <?php else: ?>
@@ -250,10 +244,3 @@ if (isset($_SESSION["user_id"])) {
 </body>
 </html>
 
-
-
-<?php //include "{$backSeperator}includeReport.php";?>
-
-$baskSa='../../'
-
-../../
