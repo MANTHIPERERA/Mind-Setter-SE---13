@@ -1,0 +1,58 @@
+Index: Mind_Setter/validate-email.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\n$mysqli = require __DIR__ . \"/database.php\";\r\n\r\n$sql = sprintf(\"SELECT * FROM users\r\n                WHERE email = '%s'\",\r\n    $mysqli->real_escape_string($_GET[\"email\"]));\r\n\r\n$result = $mysqli->query($sql);\r\n\r\n$is_available = $result->num_rows === 0;\r\n\r\nheader(\"Content-Type: application/json\");\r\n\r\necho json_encode([\"available\" => $is_available]);
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Mind_Setter/validate-email.php b/Mind_Setter/validate-email.php
+--- a/Mind_Setter/validate-email.php	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
++++ b/Mind_Setter/validate-email.php	(date 1680197911878)
+@@ -12,4 +12,6 @@
+ 
+ header("Content-Type: application/json");
+ 
+-echo json_encode(["available" => $is_available]);
+\ No newline at end of file
++echo json_encode(["available" => $is_available]);
++
++
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
++++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: Javascript/index.js
+===================================================================
+diff --git a/Javascript/index.js b/Javascript/index.js
+deleted file mode 100644
+--- a/Javascript/index.js	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
++++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+@@ -1,2 +0,0 @@
+-console.log("Hello world")
+-console.log("Hello Sri lanka")
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
++++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+@@ -1,5 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+diff --git a/CSS/styles.css b/CSS/styles.css
+deleted file mode 100644
