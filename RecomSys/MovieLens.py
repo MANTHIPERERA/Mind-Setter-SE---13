@@ -5,16 +5,26 @@ import re #imports re module to use regular expressions
 
 from surprise import Dataset   #imports Dataset class from surprise module
 from surprise import Reader    #imports Reader class from surprise module
+from surprise import accuracy
+from surprise.model_selection import train_test_split
+from surprise import SVD #imports SVD (Singular Value Decomposition) class from surprise module
+
+
 
 from collections import defaultdict #imports defaultdict class from collections module
 import numpy as np            #imports numpy module (Numeric computing)
 
+
+
 class MovieLens: #creates class MovieLens
+    
 
     movieID_to_name = {}  #creates dictionary movieID_to_name
     name_to_movieID = {}  #creates dictionary name_to_movieID
     ratingsPath = '../ml-latest-small/ratings.csv' #creates variable with relative path named ratingsPath to access the ratings.csv file
     moviesPath = '../ml-latest-small/movies.csv'  #creates variable with relative path named moviesPath to access the movies.csv file
+
+
     
     def loadMovieLensLatestSmall(self): #creates function loadMovieLensLatestSmall
 
@@ -29,6 +39,26 @@ class MovieLens: #creates class MovieLens
         #creates variable reader and sets it to Reader class with line_format as mentioned above that splits data with ',' and skip_lines is set to skip line 1 parameters
 
         ratingsDataset = Dataset.load_from_file(self.ratingsPath, reader=reader)
+
+        # Split the dataset into training and testing sets
+        trainset, testset = train_test_split(ratingsDataset, test_size=0.2)
+
+        # Train the model on the training set
+        algo = SVD()
+        algo.fit(trainset)
+
+        # Make predictions on the testing set
+        predictions = algo.test(testset)
+
+        # Evaluate the predictions
+        rmse = accuracy.rmse(predictions)
+        mae = accuracy.mae(predictions)
+
+        varience = np.var([pred.est for pred in predictions])
+        print('Variance:', varience)
+
+        print('RMSE:', rmse)
+        print('MAE:', mae)
 
         with open(self.moviesPath, newline='', encoding='ISO-8859-1') as csvfile: #opens movies.csv file
                 movieReader = csv.reader(csvfile) #Reads csv file and return an iterator object
