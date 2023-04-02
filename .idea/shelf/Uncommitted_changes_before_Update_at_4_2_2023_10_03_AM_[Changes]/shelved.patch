@@ -1,0 +1,994 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_1.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_1.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_1.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1" date="1680199476154" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/30/2023 11:34 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM__Changes_.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,9 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]" date="1680197912051" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/30/2023 11:08 PM [Changes]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="Assets/Logo.png" />
+-    <option name="AFTER_PATH" />
+-    <option name="SHELVED_PATH" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/jsLibraryMappings.xml
+===================================================================
+diff --git a/.idea/jsLibraryMappings.xml b/.idea/jsLibraryMappings.xml
+deleted file mode 100644
+--- a/.idea/jsLibraryMappings.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="JavaScriptLibraryMappings">
+-    <file url="PROJECT" libraries="{bootstrap, font-awesome, just-validate, swiper, water.css}" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM__Changes_.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,9 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]" date="1680199024077" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/30/2023 11:27 PM [Changes]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="Assets/Logo.png" />
+-    <option name="AFTER_PATH" />
+-    <option name="SHELVED_PATH" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,15 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <profile version="1.0">
+-    <option name="myName" value="Project Default" />
+-    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="myValues">
+-        <value>
+-          <list size="1">
+-            <item index="0" class="java.lang.String" itemvalue="enter" />
+-          </list>
+-        </value>
+-      </option>
+-      <option name="myCustomValuesEnabled" value="true" />
+-    </inspection_tool>
+-  </profile>
+-</component>
+\ No newline at end of file
+Index: .idea/Mind_Setter.iml
+===================================================================
+diff --git a/.idea/Mind_Setter.iml b/.idea/Mind_Setter.iml
+deleted file mode 100644
+--- a/.idea/Mind_Setter.iml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" name="water.css" level="application" />
+-    <orderEntry type="library" name="bootstrap" level="application" />
+-    <orderEntry type="library" name="just-validate" level="application" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]" date="1680199468970" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/30/2023 11:34 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,58 +0,0 @@
+-Index: Mind_Setter/validate-email.php
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?php\r\n\r\n$mysqli = require __DIR__ . \"/database.php\";\r\n\r\n$sql = sprintf(\"SELECT * FROM users\r\n                WHERE email = '%s'\",\r\n    $mysqli->real_escape_string($_GET[\"email\"]));\r\n\r\n$result = $mysqli->query($sql);\r\n\r\n$is_available = $result->num_rows === 0;\r\n\r\nheader(\"Content-Type: application/json\");\r\n\r\necho json_encode([\"available\" => $is_available]);
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Mind_Setter/validate-email.php b/Mind_Setter/validate-email.php
+---- a/Mind_Setter/validate-email.php	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ b/Mind_Setter/validate-email.php	(date 1680197907188)
+-@@ -12,4 +12,6 @@
+- 
+- header("Content-Type: application/json");
+- 
+--echo json_encode(["available" => $is_available]);
+-\ No newline at end of file
+-+echo json_encode(["available" => $is_available]);
+-+
+-+
+-Index: .idea/modules.xml
+-===================================================================
+-diff --git a/.idea/modules.xml b/.idea/modules.xml
+-deleted file mode 100644
+---- a/.idea/modules.xml	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,8 +0,0 @@
+--<?xml version="1.0" encoding="UTF-8"?>
+--<project version="4">
+--  <component name="ProjectModuleManager">
+--    <modules>
+--      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" />
+--    </modules>
+--  </component>
+--</project>
+-\ No newline at end of file
+-Index: Javascript/index.js
+-===================================================================
+-diff --git a/Javascript/index.js b/Javascript/index.js
+-deleted file mode 100644
+---- a/Javascript/index.js	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,2 +0,0 @@
+--console.log("Hello world")
+--console.log("Hello Sri lanka")
+-Index: .idea/.gitignore
+-===================================================================
+-diff --git a/.idea/.gitignore b/.idea/.gitignore
+-deleted file mode 100644
+---- a/.idea/.gitignore	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,5 +0,0 @@
+--# Default ignored files
+--/shelf/
+--/workspace.xml
+--# Editor-based HTTP Client requests
+--/httpRequests/
+-diff --git a/CSS/styles.css b/CSS/styles.css
+-deleted file mode 100644
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,58 +0,0 @@
+-Index: Mind_Setter/validate-email.php
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?php\r\n\r\n$mysqli = require __DIR__ . \"/database.php\";\r\n\r\n$sql = sprintf(\"SELECT * FROM users\r\n                WHERE email = '%s'\",\r\n    $mysqli->real_escape_string($_GET[\"email\"]));\r\n\r\n$result = $mysqli->query($sql);\r\n\r\n$is_available = $result->num_rows === 0;\r\n\r\nheader(\"Content-Type: application/json\");\r\n\r\necho json_encode([\"available\" => $is_available]);
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Mind_Setter/validate-email.php b/Mind_Setter/validate-email.php
+---- a/Mind_Setter/validate-email.php	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ b/Mind_Setter/validate-email.php	(date 1680197911878)
+-@@ -12,4 +12,6 @@
+- 
+- header("Content-Type: application/json");
+- 
+--echo json_encode(["available" => $is_available]);
+-\ No newline at end of file
+-+echo json_encode(["available" => $is_available]);
+-+
+-+
+-Index: .idea/modules.xml
+-===================================================================
+-diff --git a/.idea/modules.xml b/.idea/modules.xml
+-deleted file mode 100644
+---- a/.idea/modules.xml	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,8 +0,0 @@
+--<?xml version="1.0" encoding="UTF-8"?>
+--<project version="4">
+--  <component name="ProjectModuleManager">
+--    <modules>
+--      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" />
+--    </modules>
+--  </component>
+--</project>
+-\ No newline at end of file
+-Index: Javascript/index.js
+-===================================================================
+-diff --git a/Javascript/index.js b/Javascript/index.js
+-deleted file mode 100644
+---- a/Javascript/index.js	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,2 +0,0 @@
+--console.log("Hello world")
+--console.log("Hello Sri lanka")
+-Index: .idea/.gitignore
+-===================================================================
+-diff --git a/.idea/.gitignore b/.idea/.gitignore
+-deleted file mode 100644
+---- a/.idea/.gitignore	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-+++ /dev/null	(revision 217d3228d165ca2c3cbfbd934f0be7c66b9cb371)
+-@@ -1,5 +0,0 @@
+--# Default ignored files
+--/shelf/
+--/workspace.xml
+--# Editor-based HTTP Client requests
+--/httpRequests/
+-diff --git a/CSS/styles.css b/CSS/styles.css
+-deleted file mode 100644
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,48 +0,0 @@
+-Index: .idea/modules.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/modules.xml b/.idea/modules.xml
+-deleted file mode 100644
+---- a/.idea/modules.xml	
+-+++ /dev/null	
+-@@ -1,8 +0,0 @@
+--<?xml version="1.0" encoding="UTF-8"?>
+--<project version="4">
+--  <component name="ProjectModuleManager">
+--    <modules>
+--      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" />
+--    </modules>
+--  </component>
+--</project>
+-\ No newline at end of file
+-Index: Javascript/index.js
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Javascript/index.js b/Javascript/index.js
+-deleted file mode 100644
+---- a/Javascript/index.js	
+-+++ /dev/null	
+-@@ -1,2 +0,0 @@
+--console.log("Hello world")
+--console.log("Hello Sri lanka")
+-Index: .idea/.gitignore
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/.gitignore b/.idea/.gitignore
+-deleted file mode 100644
+---- a/.idea/.gitignore	
+-+++ /dev/null	
+-@@ -1,5 +0,0 @@
+--# Default ignored files
+--/shelf/
+--/workspace.xml
+--# Editor-based HTTP Client requests
+--/httpRequests/
+-diff --git a/CSS/styles.css b/CSS/styles.css
+-deleted file mode 100644
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,16 +0,0 @@
+-Index: index.php
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?php\r\n\r\nsession_start();\r\n//print_r($_SESSION);\r\n\r\nif (isset($_SESSION[\"user_id\"])) {\r\n\r\n    $mysqli = require __DIR__ . \"/database.php\";\r\n\r\n    $sql = \"SELECT * FROM users\r\n            WHERE id = {$_SESSION[\"user_id\"]}\";\r\n\r\n    $result = $mysqli->query($sql);\r\n\r\n    $user = $result->fetch_assoc();\r\n}\r\n\r\n?>\r\n\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Home</title>\r\n    <meta charset=\"UTF-8\">\r\n<!--    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/water.css@2/out/water.css\">-->\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n    <!-- Bootstrap CSS -->\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css\"\r\n          rel=\"stylesheet\" integrity=\"sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\"\r\n          crossorigin=\"anonymous\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Marvel:wght@700&display=swap\"\r\n          rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"CSS/newstyle.css\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Marvel:wght@700&display=swap\"\r\n          rel=\"stylesheet\">\r\n    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>\r\n\r\n    <title>Mind - Setter</title>\r\n</head>\r\n<body>\r\n\r\n<!--<h1>Home</h1>-->\r\n\r\n<?php //if (isset($_SESSION[\"user_id\"])):?>\r\n\r\n<?php if (isset($user)): ?>\r\n\r\n    <p>Hello <?= htmlspecialchars($user[\"name\"]) ?></p>\r\n\r\n    <p>You are logged in.</p>\r\n\r\n\r\n\r\n    <p><a href=\"logout.php\">Log out</a></p>\r\n\r\n\r\n<?php else: ?>\r\n\r\n<!--    <p><a href=\"login.php\">Log in</a> or <a href=\"singup.html\">sign up</a></p>-->\r\n\r\n<div class=\"row\">\r\n    <nav class=\"navbar navbar-expand-lg bg-light shadow\">\r\n\r\n        <img src=\"Assets/Logo.png\" alt=\"brand image\" width=\"7%\" style=\"position: relative;left: 15px;\">\r\n\r\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarTogglerDemo02\"\r\n                aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo02\">\r\n\r\n            <ul class=\"navbar-nav ms-auto p-3 \">\r\n                <li class=\"nav-item\">\r\n                    <a href=\"index.html\" class=\"nav-link m-3 \" style=\"color:#0ABE9E\"> Home </a>\r\n                </li>\r\n\r\n                <li class=\"nav-item\">\r\n                    <a href=\"#About US\" class=\"nav-link m-3\" style=\"color:#0ABE9E\"> About Us </a>\r\n                </li>\r\n\r\n                <li class=\"nav-item\">\r\n                    <a href=\"#FAQ\" class=\"nav-link m-3\" style=\"color:#0ABE9E\"> FAQ </a>\r\n                </li>\r\n\r\n                <li class=\"nav-item\">\r\n                    <button class=\"btn btn-outline-success m-3\" style=\"font-size: 24px;\" type=\"submit\"\r\n                            onclick=\"location.href='login.php'\">Login\r\n                    </button>\r\n                </li>\r\n\r\n                <li class=\"nav-item\">\r\n                    <button class=\"btn btn-outline-success m-3\" style=\"font-size: 24px;\" type=\"submit\"\r\n                            onclick=\"location.href='singup.html'\">Sign Up\r\n                    </button>\r\n                </li>\r\n\r\n            </ul>\r\n\r\n        </div>\r\n    </nav>\r\n</div>\r\n<div class=\"row\">\r\n\r\n    <div class=\"container-xxl\">\r\n        <div class=\"text1 p-5\" style=\"font-size:4vw;\">\r\n            How our website works\r\n        </div>\r\n        <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-bs-ride=\"carousel\">\r\n            <div class=\"carousel-indicators\">\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\"\r\n                        aria-current=\"true\" aria-label=\"Slide 1\"></button>\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\"\r\n                        aria-label=\"Slide 2\"></button>\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\"\r\n                        aria-label=\"Slide 3\"></button>\r\n            </div>\r\n\r\n            <div class=\"carousel-inner\" style=\"text-align: center; padding: 30px;\">\r\n                <div class=\"carousel-item active\">\r\n                    <img src=\"Assets/SliderImage1.png\" class=\"testimonial-image\" alt=\"Slider image 1\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n                <div class=\"carousel-item\">\r\n                    <img src=\"Assets/SliderImage2.png\" class=\"testimonial-image\" alt=\"Slider Image 2\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n                <div class=\"carousel-item\">\r\n                    <img src=\"Assets/SliderImage3.png\" class=\"testimonial-image\" alt=\"Slider Image 3\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n            </div>\r\n\r\n            <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\"\r\n                    data-bs-slide=\"prev\">\r\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"visually-hidden\">Previous</span>\r\n            </button>\r\n\r\n            <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\"\r\n                    data-bs-slide=\"next\">\r\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"visually-hidden\">Next</span>\r\n            </button>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"row\">\r\n    <div class=\"container-xl p-5 \">\r\n        <div class=\"textH\" style=\"font-size:4vw;\">Grades we teach<br><br></div>\r\n\r\n\r\n        <div class=\"d-grid gap-1\" style=\"position: relative;left: 130px;\">\r\n            <div class=\"button1 \">\r\n                <button class=\"btn1 btn-primary btn-lg m-2  \" type=\"button\">Grade - 10</button>\r\n                <button class=\"btn1 btn-primary btn-lg  \" type=\"button\">Grade - 11</button>\r\n            </div>\r\n            <div class=\"button1\">\r\n                <button class=\"btn1 btn-primary btn-lg m-2 \" type=\"button\">Grade - 12</button>\r\n                <button class=\"btn1 btn-primary btn-lg \" type=\"button\">Grade - 13</button>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n<div class=\"row\">\r\n    <div class=\"container-xlll p-5 \">\r\n        <div class=\"textH\" style=\"font-size:4vw;\">Our Teachers<br><br></div>\r\n        <div class=\"row row-cols-1 row-cols-md-4 g-5\">\r\n            <div class=\"col\">\r\n                <div class=\"card h-100\">\r\n                    <img src=\"Assets/Teacher1.png\" class=\"card-img-top\" alt=\"...\">\r\n                    <div class=\"card-body\">\r\n                        <h5 class=\"card-title\">Card title</h5>\r\n                        <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to\r\n                            additional content. This content is a little bit longer.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col\">\r\n                <div class=\"card h-100\">\r\n                    <img src=\"Assets/Teacher2.png\" class=\"card-img-top\" alt=\"...\">\r\n                    <div class=\"card-body\">\r\n                        <h5 class=\"card-title\">Card title</h5>\r\n                        <p class=\"card-text\">This is a short card.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col\">\r\n                <div class=\"card h-100\">\r\n                    <img src=\"Assets/Teacher1.png\" class=\"card-img-top\" alt=\"...\">\r\n                    <div class=\"card-body\">\r\n                        <h5 class=\"card-title\">Card title</h5>\r\n                        <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to\r\n                            additional content.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col\">\r\n                <div class=\"card h-100\">\r\n                    <img src=\"Assets/Teacher2.png\" class=\"card-img-top\" alt=\"...\">\r\n                    <div class=\"card-body\">\r\n                        <h5 class=\"card-title\">Card title</h5>\r\n                        <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to\r\n                            additional content. This content is a little bit longer.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n\r\n    </div>\r\n\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\"\r\n            integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\"\r\n            crossorigin=\"anonymous\"></script>\r\n\r\n\r\n\r\n    <?php endif; ?>\r\n\r\n\r\n\r\n<?php //if (isset($user)): ?>\r\n<!---->\r\n<!--    <p>Hello --><?php //= htmlspecialchars($user[\"name\"]) ?><!--</p>-->\r\n<!---->\r\n<!--    <p><a href=\"logout.php\">Log out</a></p>-->\r\n<!---->\r\n<?php //else: ?>\r\n<!---->\r\n<!--    <p><a href=\"login.php\">Log in</a> or <a href=\"singup.html\">sign up</a></p>-->\r\n<!---->\r\n<?php //endif; ?>\r\n\r\n</body>\r\n</html>\r\n
+-===================================================================
+-diff --git a/index.php b/index.php
+---- a/index.php	
+-+++ b/index.php	
+-@@ -62,6 +62,7 @@
+-     <p><a href="logout.php">Log out</a></p>
+- 
+- 
+-+
+- <?php else: ?>
+- 
+- <!--    <p><a href="login.php">Log in</a> or <a href="singup.html">sign up</a></p>-->
+Index: .idea/Mind-Setter-SE---13.iml
+===================================================================
+diff --git a/.idea/Mind-Setter-SE---13.iml b/.idea/Mind-Setter-SE---13.iml
+deleted file mode 100644
+--- a/.idea/Mind-Setter-SE---13.iml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/temp" />
+-      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+-      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM__Changes_.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,9 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]" date="1680284340831" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/31/2023 11:09 PM [Changes]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="Assets/Logo.png" />
+-    <option name="AFTER_PATH" value="Assets/Logo.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/Logo.png" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,218 +0,0 @@
+-Index: .idea/php.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/php.xml b/.idea/php.xml
+-new file mode 100644
+---- /dev/null	(date 1679746977920)
+-+++ b/.idea/php.xml	(date 1679746977920)
+-@@ -0,0 +1,22 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="MessDetectorOptionsConfiguration">
+-+    <option name="transferred" value="true" />
+-+  </component>
+-+  <component name="PHPCSFixerOptionsConfiguration">
+-+    <option name="transferred" value="true" />
+-+  </component>
+-+  <component name="PHPCodeSnifferOptionsConfiguration">
+-+    <option name="highlightLevel" value="WARNING" />
+-+    <option name="transferred" value="true" />
+-+  </component>
+-+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+-+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+-+  </component>
+-+  <component name="PhpStanOptionsConfiguration">
+-+    <option name="transferred" value="true" />
+-+  </component>
+-+  <component name="PsalmOptionsConfiguration">
+-+    <option name="transferred" value="true" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: CSS/styles.css
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>#CouralSection{\r\n    background-color: #343333;\r\n    padding: 30px;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n}\r\n\r\n.btn1 {\r\n    position: relative;\r\n\r\n    background-color: #222222;\r\n    left: 50px;\r\n    border: none;\r\n    color: #00FFD1;\r\n    padding: 20px 120px;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-family:\"jost\";\r\n    font-size: 36px;\r\n    border-radius: 10px;\r\n    }\r\n\r\n\r\n.btn1:hover{background-color: #00FFD1;\r\n            color: #222222;\r\n}\r\n\r\n#gradesection{\r\n    background-color: #EEFFFC;\r\n    height: 650px;\r\n}\r\n\r\n#Ourteacher{\r\n    background-color: #222222;\r\n    height: 650px;\r\n}\r\n   \r\n.col{\r\n width: 14rem;\r\n border-radius: 16px;\r\n position: relative;\r\n left: 80px;\r\n}\r\n\r\n.card-body{\r\n    font-size: 16px;\r\n}\r\n\r\n#footersection{\r\n    background-color: #EEFFFC;\r\n    height: 200px;\r\n}\r\n#CouralSection{\r\n    background-color: #343333;\r\n    padding: 30px;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n}\r\n\r\n.btn1 {\r\n    position: relative;\r\n\r\n    background-color: #222222;\r\n    left: 50px;\r\n    border: none;\r\n    color: #00FFD1;\r\n    padding: 20px 120px;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-family:\"jost\";\r\n    font-size: 36px;\r\n    border-radius: 10px;\r\n    }\r\n\r\n\r\n.btn1:hover{background-color: #00FFD1;\r\n            color: #222222;\r\n}\r\n\r\n#gradesection{\r\n    background-color: #EEFFFC;\r\n    height: 650px;\r\n}\r\n\r\n#Ourteacher{\r\n    background-color: #222222;\r\n    height: 650px;\r\n}\r\n   \r\n.col{\r\n width: 14rem;\r\n border-radius: 16px;\r\n position: relative;\r\n left: 80px;\r\n}\r\n\r\n.card-body{\r\n    font-size: 16px;\r\n}\r\n\r\n#footersection{\r\n    background-color: #EEFFFC;\r\n    height: 200px;\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/CSS/styles.css b/CSS/styles.css
+---- a/CSS/styles.css	(revision 816cac03738513c07a70b84cb4e97da396169c9c)
+-+++ b/CSS/styles.css	(date 1680199476074)
+-@@ -1,104 +1,0 @@
+--#CouralSection{
+--    background-color: #343333;
+--    padding: 30px;
+--    color:#0ABE9E;
+--    font-family: "jost";
+--}
+--
+--.btn1 {
+--    position: relative;
+--
+--    background-color: #222222;
+--    left: 50px;
+--    border: none;
+--    color: #00FFD1;
+--    padding: 20px 120px;
+--    text-decoration: none;
+--    display: inline-block;
+--    font-family:"jost";
+--    font-size: 36px;
+--    border-radius: 10px;
+--    }
+--
+--
+--.btn1:hover{background-color: #00FFD1;
+--            color: #222222;
+--}
+--
+--#gradesection{
+--    background-color: #EEFFFC;
+--    height: 650px;
+--}
+--
+--#Ourteacher{
+--    background-color: #222222;
+--    height: 650px;
+--}
+--   
+--.col{
+-- width: 14rem;
+-- border-radius: 16px;
+-- position: relative;
+-- left: 80px;
+--}
+--
+--.card-body{
+--    font-size: 16px;
+--}
+--
+--#footersection{
+--    background-color: #EEFFFC;
+--    height: 200px;
+--}
+--#CouralSection{
+--    background-color: #343333;
+--    padding: 30px;
+--    color:#0ABE9E;
+--    font-family: "jost";
+--}
+--
+--.btn1 {
+--    position: relative;
+--
+--    background-color: #222222;
+--    left: 50px;
+--    border: none;
+--    color: #00FFD1;
+--    padding: 20px 120px;
+--    text-decoration: none;
+--    display: inline-block;
+--    font-family:"jost";
+--    font-size: 36px;
+--    border-radius: 10px;
+--    }
+--
+--
+--.btn1:hover{background-color: #00FFD1;
+--            color: #222222;
+--}
+--
+--#gradesection{
+--    background-color: #EEFFFC;
+--    height: 650px;
+--}
+--
+--#Ourteacher{
+--    background-color: #222222;
+--    height: 650px;
+--}
+--   
+--.col{
+-- width: 14rem;
+-- border-radius: 16px;
+-- position: relative;
+-- left: 80px;
+--}
+--
+--.card-body{
+--    font-size: 16px;
+--}
+--
+--#footersection{
+--    background-color: #EEFFFC;
+--    height: 200px;
+--}
+-\ No newline at end of file
+-Index: .idea/.gitignore
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+># Default ignored files\r\n/shelf/\r\n/workspace.xml\r\n# Editor-based HTTP Client requests\r\n/httpRequests/\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/.gitignore b/.idea/.gitignore
+---- a/.idea/.gitignore	(revision 816cac03738513c07a70b84cb4e97da396169c9c)
+-+++ b/.idea/.gitignore	(date 1680199476067)
+-@@ -1,5 +1,0 @@
+--# Default ignored files
+--/shelf/
+--/workspace.xml
+--# Editor-based HTTP Client requests
+--/httpRequests/
+-Index: .idea/modules.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml\" filepath=\"$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/modules.xml b/.idea/modules.xml
+---- a/.idea/modules.xml	(revision 816cac03738513c07a70b84cb4e97da396169c9c)
+-+++ b/.idea/modules.xml	(date 1680199476061)
+-@@ -1,8 +1,0 @@
+--<?xml version="1.0" encoding="UTF-8"?>
+--<project version="4">
+--  <component name="ProjectModuleManager">
+--    <modules>
+--      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" />
+--    </modules>
+--  </component>
+--</project>
+-\ No newline at end of file
+-Index: RecomSys/.idea/RecomSys.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/RecomSys/.idea/RecomSys.iml b/RecomSys/.idea/RecomSys.iml
+-new file mode 100644
+---- /dev/null	(date 1680200498361)
+-+++ b/RecomSys/.idea/RecomSys.iml	(date 1680200498361)
+-@@ -0,0 +1,22 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<module type="PYTHON_MODULE" version="4">
+-+  <component name="Flask">
+-+    <option name="enabled" value="true" />
+-+  </component>
+-+  <component name="NewModuleRootManager">
+-+    <content url="file://$MODULE_DIR$" />
+-+    <orderEntry type="inheritedJdk" />
+-+    <orderEntry type="sourceFolder" forTests="false" />
+-+  </component>
+-+  <component name="PyDocumentationSettings">
+-+    <option name="renderExternalDocumentation" value="true" />
+-+  </component>
+-+  <component name="TemplatesService">
+-+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+-+    <option name="TEMPLATE_FOLDERS">
+-+      <list>
+-+        <option value="$MODULE_DIR$/templates" />
+-+      </list>
+-+    </option>
+-+  </component>
+-+</module>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,17 +0,0 @@
+-Index: Mind_Setter/validate-email.php
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?php\r\n\r\n$mysqli = require __DIR__ . \"/database.php\";\r\n\r\n$sql = sprintf(\"SELECT * FROM users\r\n                WHERE email = '%s'\",\r\n    $mysqli->real_escape_string($_GET[\"email\"]));\r\n\r\n$result = $mysqli->query($sql);\r\n\r\n$is_available = $result->num_rows === 0;\r\n\r\nheader(\"Content-Type: application/json\");\r\n\r\necho json_encode([\"available\" => $is_available]);
+-===================================================================
+-diff --git a/Mind_Setter/validate-email.php b/Mind_Setter/validate-email.php
+---- a/Mind_Setter/validate-email.php	
+-+++ b/Mind_Setter/validate-email.php	
+-@@ -12,4 +12,6 @@
+- 
+- header("Content-Type: application/json");
+- 
+--echo json_encode(["available" => $is_available]);
+-\ No newline at end of file
+-+echo json_encode(["available" => $is_available]);
+-+
+-+
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM__Changes_.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ /dev/null	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]" date="1679563351033" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3/23/2023 2:52 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MessDetectorOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PHPCSFixerOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PHPCodeSnifferOptionsConfiguration\">\r\n    <option name=\"highlightLevel\" value=\"WARNING\" />\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n<<<<<<< Updated upstream\r\n  <component name=\"PhpProjectSharedConfiguration\" php_language_level=\"8.0\" />\r\n=======\r\n  <component name=\"PhpProjectSharedConfiguration\" php_language_level=\"8.0\">\r\n    <option name=\"suggestChangeDefaultLanguageLevel\" value=\"false\" />\r\n  </component>\r\n>>>>>>> Stashed changes\r\n  <component name=\"PhpStanOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PsalmOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+--- a/.idea/php.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ b/.idea/php.xml	(date 1680408893361)
+@@ -10,13 +10,9 @@
+     <option name="highlightLevel" value="WARNING" />
+     <option name="transferred" value="true" />
+   </component>
+-<<<<<<< Updated upstream
+-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+-=======
+   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+   </component>
+->>>>>>> Stashed changes
+   <component name="PhpStanOptionsConfiguration">
+     <option name="transferred" value="true" />
+   </component>
+Index: login.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\n$is_invalid = false;\r\n\r\nif ($_SERVER[\"REQUEST_METHOD\"] === \"POST\"){\r\n\r\n    $mysqli = require __DIR__ . \"/database.php\";\r\n\r\n    $sql = sprintf(\"SELECT * FROM users\r\n                    WHERE email = '%s'\",\r\n        $mysqli->real_escape_string($_POST[\"email\"]));\r\n\r\n    $result = $mysqli->query($sql);\r\n\r\n    $user = $result->fetch_assoc();\r\n\r\n//    var_dump($user);\r\n//    exit;\r\n\r\n    if ($user) {\r\n\r\n        if (password_verify($_POST[\"password\"], $user[\"password_hash\"])) {\r\n\r\n//            die(\"Log sss\");\r\n\r\n            session_start();\r\n\r\n            session_regenerate_id();\r\n\r\n            $_SESSION[\"user_id\"] = $user[\"id\"];\r\n\r\n            header(\"Location: index.php\");\r\n            exit;\r\n        }\r\n    }\r\n\r\n    $is_invalid = true;\r\n\r\n}\r\n\r\n?>\r\n\r\n\r\n<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n    <!-- Bootstrap CSS -->\r\n    <link rel = \"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\" crossorigin=\"anonymous\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Marvel:wght@700&display=swap\" rel=\"stylesheet\">\r\n    <link rel = \"stylesheet\" href=\"CSS/login.css\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Marvel:wght@700&display=swap\" rel=\"stylesheet\">\r\n    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>\r\n\r\n    <title>Mind - Setter</title>\r\n</head>\r\n<body>\r\n\r\n<section class=\"vh-100\">\r\n    <div class=\"container-fluid h-custom\">\r\n        <div class=\"row d-flex justify-content-center align-items-center h-100\">\r\n            <div class=\"col-md-9 col-lg-6 col-xl-5\">\r\n                <img src=\"Assets/login_image.png\"\r\n                     class=\"img-fluid\" alt=\"Sample image\">\r\n            </div>\r\n            <div class=\"col-md-8 col-lg-6 col-xl-4 offset-xl-1\">\r\n\r\n                <?php if ($is_invalid): ?>\r\n                    <em>Invalid login</em>\r\n                <?php endif; ?>\r\n\r\n                <form method=\"post\">\r\n                    <div class=\"d-flex flex-row align-items-center justify-content-center justify-content-lg-start\">\r\n                        <p class=\"lead fw-bold mb-0 me-3\">Log In</p>\r\n\r\n                    </div>\r\n\r\n                    <div class=\"divider d-flex align-items-center my-4\">\r\n                        <p class=\"text-center fw-normal mx-3 mb-0\">Please fill in your details to access to your account</p>\r\n                    </div>\r\n\r\n                    <!-- Email input -->\r\n                    <div class=\"form-outline mb-4\">\r\n                        <label class=\"form-label\" for=\"form3Example3\">Email address</label>\r\n                        <input type=\"email\" id=\"email\" name=\"email\" class=\"form-control form-control-lg\"\r\n                               value=\"<?= htmlspecialchars($_POST[\"email\"] ?? \"\") ?>\"\r\n                               placeholder=\"Enter a valid email address\" />\r\n\r\n                    </div>\r\n\r\n                    <!-- Password input -->\r\n                    <div class=\"form-outline mb-3\">\r\n                        <label class=\"form-label\" for=\"form3Example4\">Password</label>\r\n                        <input type=\"password\" id=\"password\" name=\"password\" class=\"form-control form-control-lg\"\r\n                               placeholder=\"Enter password\" />\r\n\r\n                    </div>\r\n\r\n                    <div class=\"d-flex justify-content-between align-items-center\">\r\n                        <!-- Checkbox -->\r\n                        <div class=\"form-check mb-0\">\r\n                            <input class=\"form-check-input me-2\" type=\"checkbox\" value=\"\" id=\"form2Example3\" />\r\n                            <label class=\"form-check-label\" for=\"form2Example3\">\r\n                                Remember me\r\n                            </label>\r\n                        </div>\r\n                        <a href=\"ForgotPW1.html\" class=\"text-body\">Forgot password?</a>\r\n                    </div>\r\n\r\n                    <div class=\"text-center text-lg-start mt-4 pt-2\">\r\n                        <button type=\"submit\" class=\"btn btn-primary btn-lg\"\r\n                                style=\"padding-left: 6.1rem; padding-right: 6.2rem;\">Login</button><br><br>\r\n                        <button type=\"button\" class=\"btn btn-primary btn-lg\"\r\n                                style=\"padding-left: 2.5rem; padding-right: 2.5rem;\">Sign in with google</button>\r\n\r\n                        <p class=\"small fw-bold mt-2 pt-1 mb-0\">Don't have an account? <a href=\"singup.html\"\r\n                                                                                          class=\"link-danger\"style=\" color:#0FE8C1;\">Sign Up</a></p>\r\n                    </div>\r\n\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\"></script>\r\n\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/login.php b/login.php
+--- a/login.php	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ b/login.php	(date 1680403841468)
+@@ -27,9 +27,26 @@
+ 
+             session_regenerate_id();
+ 
+-            $_SESSION["user_id"] = $user["id"];
++          $_SESSION["user_id"] = $user["id"];
+ 
+-            header("Location: index.php");
++           $sql="select * from userdetail where user_id=1";
++            $result1 = $mysqli->query($sql);
++            $catAllow=false;
++            while($row=mysqli_fetch_array($result1)){
++               $_SESSION['cat_id']=$row['cat_id'];
++               $catAllow=true;
++            }
++            
++            if($catAllow){
++                echo 'dashboard';
++             header("Location: index.php");
++               
++            }else{
++                echo 'quiz';
++                header("Location: onboardquestions.html");
++            }
++
++           // header("Location: index.php");
+             exit;
+         }
+     }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n<<<<<<< Updated upstream\r\n    <list default=\"true\" id=\"393a4ecc-f946-420c-afdd-b456d1466fb3\" name=\"Changes\" comment=\"test\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/login.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login.php\" afterDir=\"false\" />\r\n    </list>\r\n=======\r\n    <list default=\"true\" id=\"3da9a8da-9a54-417b-8c08-005b0bb9e50b\" name=\"Changes\" comment=\"\" />\r\n>>>>>>> Stashed changes\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n<<<<<<< Updated upstream\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n=======\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"MindSetter\" />\r\n>>>>>>> Stashed changes\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n<<<<<<< Updated upstream\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"c0d06742-1cf5-4aec-9c4d-a717ec565295\" />\r\n        <option name=\"url\" value=\"https://github.com/MANTHIPERERA/Mind-Setter-SE---13.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP (1)\" />\r\n  <component name=\"ProjectId\" id=\"2MaGhKvLkOpc8PDniRIA6eftPla\" />\r\n=======\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP\" />\r\n  <component name=\"ProjectId\" id=\"2NVQhNIgyofJH3seqMr1jXbmz8a\" />\r\n>>>>>>> Stashed changes\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n<<<<<<< Updated upstream\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"JavaScript Debug.index.php\">\r\n    <configuration name=\"first-index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind_Setter/first-index.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"index.php\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind_Setter/index.php\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"logout.php\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind_Setter/logout.php\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"singup-success.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind_Setter/singup-success.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"singup.html\" type=\"JavascriptDebugType\" nameIsGenerated=\"true\" uri=\"http://localhost:8080/Mind_Setter/singup.html\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"singup.php\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63343/Mind_Setter/singup.php\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"JavaScript Debug.singup.html\" />\r\n      <item itemvalue=\"JavaScript Debug.first-index.html\" />\r\n      <item itemvalue=\"JavaScript Debug.index.php\" />\r\n      <item itemvalue=\"JavaScript Debug.singup-success.html\" />\r\n      <item itemvalue=\"JavaScript Debug.logout.php\" />\r\n      <item itemvalue=\"JavaScript Debug.singup.php\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JavaScript Debug.index.php\" />\r\n        <item itemvalue=\"JavaScript Debug.logout.php\" />\r\n        <item itemvalue=\"JavaScript Debug.singup-success.html\" />\r\n        <item itemvalue=\"JavaScript Debug.first-index.html\" />\r\n        <item itemvalue=\"JavaScript Debug.singup.php\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"393a4ecc-f946-420c-afdd-b456d1466fb3\" name=\"Changes\" comment=\"\" />\r\n      <created>1677998398351</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1677998398351</updated>\r\n      <workItem from=\"1677998399566\" duration=\"7969000\" />\r\n      <workItem from=\"1678100219504\" duration=\"16192000\" />\r\n      <workItem from=\"1678168966745\" duration=\"5731000\" />\r\n      <workItem from=\"1678179924744\" duration=\"9324000\" />\r\n      <workItem from=\"1678210292795\" duration=\"4171000\" />\r\n      <workItem from=\"1678254492329\" duration=\"2274000\" />\r\n      <workItem from=\"1678597777717\" duration=\"1528000\" />\r\n      <workItem from=\"1678763597005\" duration=\"17620000\" />\r\n      <workItem from=\"1679110507538\" duration=\"304000\" />\r\n      <workItem from=\"1679464715484\" duration=\"2146000\" />\r\n      <workItem from=\"1679469661159\" duration=\"101000\" />\r\n      <workItem from=\"1679479732570\" duration=\"7021000\" />\r\n      <workItem from=\"1679553713824\" duration=\"1131000\" />\r\n      <workItem from=\"1679555641122\" duration=\"115000\" />\r\n      <workItem from=\"1679555962226\" duration=\"380000\" />\r\n=======\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3da9a8da-9a54-417b-8c08-005b0bb9e50b\" name=\"Changes\" comment=\"\" />\r\n      <created>1679746893449</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1679746893449</updated>\r\n      <workItem from=\"1679746894939\" duration=\"1440000\" />\r\n      <workItem from=\"1680101822439\" duration=\"623000\" />\r\n      <workItem from=\"1680152918375\" duration=\"2919000\" />\r\n      <workItem from=\"1680184427634\" duration=\"6834000\" />\r\n      <workItem from=\"1680284321580\" duration=\"1012000\" />\r\n      <workItem from=\"1680285348625\" duration=\"2843000\" />\r\n>>>>>>> Stashed changes\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n<<<<<<< Updated upstream\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"Kalpana_branch\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test\" />\r\n  </component>\r\n=======\r\n>>>>>>> Stashed changes\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ b/.idea/workspace.xml	(date 1680409829302)
+@@ -1,18 +1,34 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+   <component name="ChangeListManager">
+-<<<<<<< Updated upstream
+-    <list default="true" id="393a4ecc-f946-420c-afdd-b456d1466fb3" name="Changes" comment="test">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/Mind-Setter-SE---13.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/Mind_Setter.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]1/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_08_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_27_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM_[Changes]1/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_30_2023_11_34_PM__Changes_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/Logo.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_31_2023_11_09_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/process-singup.php" beforeDir="false" afterPath="$PROJECT_DIR$/process-singup.php" afterDir="false" />
+     </list>
+-=======
+-    <list default="true" id="3da9a8da-9a54-417b-8c08-005b0bb9e50b" name="Changes" comment="" />
+->>>>>>> Stashed changes
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -21,207 +37,53 @@
+   <component name="ComposerSettings">
+     <execution />
+   </component>
+-<<<<<<< Updated upstream
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="JavaScript File" />
+-        <option value="HTML File" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
+-=======
+   <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="MindSetter" />
+->>>>>>> Stashed changes
+-      </map>
+-    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-<<<<<<< Updated upstream
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN"
+-  }
+-}]]></component>
+-  <component name="GitSEFilterConfiguration">
+-    <file-type-list>
+-      <filtered-out-file-type name="LOCAL_BRANCH" />
+-      <filtered-out-file-type name="REMOTE_BRANCH" />
+-      <filtered-out-file-type name="TAG" />
+-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+-    </file-type-list>
+-  </component>
+-  <component name="GithubPullRequestsUISettings">
+-    <option name="selectedUrlAndAccountId">
+-      <UrlAndAccount>
+-        <option name="accountId" value="c0d06742-1cf5-4aec-9c4d-a717ec565295" />
+-        <option name="url" value="https://github.com/MANTHIPERERA/Mind-Setter-SE---13.git" />
+-      </UrlAndAccount>
+-    </option>
+-  </component>
+-  <component name="MarkdownSettingsMigration">
+-    <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP (1)" />
+-  <component name="ProjectId" id="2MaGhKvLkOpc8PDniRIA6eftPla" />
+-=======
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+-  <component name="ProjectId" id="2NVQhNIgyofJH3seqMr1jXbmz8a" />
+->>>>>>> Stashed changes
++  <component name="ProjectId" id="2Nr5lOACZrgPO1Q9kQSrKi36hMM" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-<<<<<<< Updated upstream
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "DefaultHtmlFileTemplate": "HTML File",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.lookFeel",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="JavaScript Debug.index.php">
+-    <configuration name="first-index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind_Setter/first-index.html" useBuiltInWebServerPort="true">
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind_Setter/index.php" useBuiltInWebServerPort="true">
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="logout.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind_Setter/logout.php" useBuiltInWebServerPort="true">
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="singup-success.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind_Setter/singup-success.html" useBuiltInWebServerPort="true">
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="singup.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/Mind_Setter/singup.html">
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="singup.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Mind_Setter/singup.php" useBuiltInWebServerPort="true">
++  <component name="RunManager">
++    <configuration name="navigazion.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind-Setter/component/navigazion.php" useBuiltInWebServerPort="true">
+       <method v="2" />
+     </configuration>
+-    <list>
+-      <item itemvalue="JavaScript Debug.singup.html" />
+-      <item itemvalue="JavaScript Debug.first-index.html" />
+-      <item itemvalue="JavaScript Debug.index.php" />
+-      <item itemvalue="JavaScript Debug.singup-success.html" />
+-      <item itemvalue="JavaScript Debug.logout.php" />
+-      <item itemvalue="JavaScript Debug.singup.php" />
+-    </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="JavaScript Debug.index.php" />
+-        <item itemvalue="JavaScript Debug.logout.php" />
+-        <item itemvalue="JavaScript Debug.singup-success.html" />
+-        <item itemvalue="JavaScript Debug.first-index.html" />
+-        <item itemvalue="JavaScript Debug.singup.php" />
++        <item itemvalue="JavaScript Debug.navigazion.php" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="393a4ecc-f946-420c-afdd-b456d1466fb3" name="Changes" comment="" />
+-      <created>1677998398351</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1677998398351</updated>
+-      <workItem from="1677998399566" duration="7969000" />
+-      <workItem from="1678100219504" duration="16192000" />
+-      <workItem from="1678168966745" duration="5731000" />
+-      <workItem from="1678179924744" duration="9324000" />
+-      <workItem from="1678210292795" duration="4171000" />
+-      <workItem from="1678254492329" duration="2274000" />
+-      <workItem from="1678597777717" duration="1528000" />
+-      <workItem from="1678763597005" duration="17620000" />
+-      <workItem from="1679110507538" duration="304000" />
+-      <workItem from="1679464715484" duration="2146000" />
+-      <workItem from="1679469661159" duration="101000" />
+-      <workItem from="1679479732570" duration="7021000" />
+-      <workItem from="1679553713824" duration="1131000" />
+-      <workItem from="1679555641122" duration="115000" />
+-      <workItem from="1679555962226" duration="380000" />
+-=======
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-  }
+-}</component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="3da9a8da-9a54-417b-8c08-005b0bb9e50b" name="Changes" comment="" />
+-      <created>1679746893449</created>
++      <changelist id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="" />
++      <created>1680409511804</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1679746893449</updated>
+-      <workItem from="1679746894939" duration="1440000" />
+-      <workItem from="1680101822439" duration="623000" />
+-      <workItem from="1680152918375" duration="2919000" />
+-      <workItem from="1680184427634" duration="6834000" />
+-      <workItem from="1680284321580" duration="1012000" />
+-      <workItem from="1680285348625" duration="2843000" />
+->>>>>>> Stashed changes
++      <updated>1680409511804</updated>
++      <workItem from="1680409515586" duration="314000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-<<<<<<< Updated upstream
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="Kalpana_branch" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+-  </component>
+-=======
+->>>>>>> Stashed changes
+ </project>
+\ No newline at end of file
+Index: process-singup.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\nif(empty($_POST[\"name\"])){\r\n    die(\"Name is required\");\r\n}\r\n\r\nif (!filter_var($_POST[\"email\"], FILTER_VALIDATE_EMAIL)){\r\n    die(\"Valid email is required\");\r\n}\r\n\r\nif (strlen($_POST[\"password\"]) < 8) {\r\n    die(\"Password must be at least 8 characters\");\r\n}\r\n\r\nif ( ! preg_match(\"/[a-z]/i\", $_POST[\"password\"])) {\r\n    die(\"Password must contain at least one letter\");\r\n}\r\n\r\nif ( ! preg_match(\"/[0-9]/\", $_POST[\"password\"])) {\r\n    die(\"Password must contain at least one number\");\r\n}\r\n\r\nif ($_POST[\"password\"] !== $_POST[\"Confirm_Password\"]) {\r\n    die(\"Passwords must match\");\r\n}\r\n\r\n$password_hash = password_hash($_POST[\"password\"], PASSWORD_DEFAULT);\r\n\r\n$mysqli = require __DIR__ . \"/database.php\";\r\n\r\n$sql = \"INSERT INTO users (name, email, password_hash)\r\n        VALUES (?, ?, ?)\";\r\n\r\n$stmt = $mysqli->stmt_init();\r\n\r\nif ( ! $stmt->prepare($sql)) {\r\n    die(\"SQL error: \" . $mysqli->error);\r\n}\r\n\r\n$stmt->bind_param(\"sss\",\r\n    $_POST[\"name\"],\r\n    $_POST[\"email\"],\r\n    $password_hash);\r\n\r\n//$stmt -> execute();\r\n//echo \"Signup successfully\";\r\n\r\n//print_r($_POST);\r\n//\r\n//var_dump($password_hash);\r\n\r\n\r\nif ($stmt->execute()) {\r\n\r\n    header(\"Location: singup-success.html\");\r\n    exit;\r\n\r\n} else {\r\n\r\n    if ($mysqli->errno === 1062) {\r\n        die(\"email already taken\");\r\n    } else {\r\n        die($mysqli->error . \" \" . $mysqli->errno);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/process-singup.php b/process-singup.php
+--- a/process-singup.php	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ b/process-singup.php	(date 1680338188844)
+@@ -1,5 +1,5 @@
+ <?php
+-
++echo 'dfdfd';
+ if(empty($_POST["name"])){
+     die("Name is required");
+ }
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/Mind_Setter.iml\" filepath=\"$PROJECT_DIR$/.idea/Mind_Setter.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 7e8743c1273260a8b0c0289b9a41ca7043be0864)
++++ b/.idea/modules.xml	(date 1680408893330)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Mind_Setter.iml" filepath="$PROJECT_DIR$/.idea/Mind_Setter.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/Mind-Setter.iml" filepath="$PROJECT_DIR$/.idea/Mind-Setter.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_23_2023_2_52_PM_[Changes]1/shelved.patch
+deleted file mode 100644
