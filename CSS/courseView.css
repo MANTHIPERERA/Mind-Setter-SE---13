@@ -1,7 +1,17 @@
-h2 {
-    position: absolute;
-    width: 620px;
-    height: 102px;
-    left: 31px;
-    top: 267px;
+.lessons {
+    position: center;
+    text-align:left;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+.lesson_1 {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.videoForm {
+    padding-left: 50px;
+    padding-right: 50px;
 }
