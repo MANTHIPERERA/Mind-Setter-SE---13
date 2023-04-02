@@ -1,5 +1,5 @@
 <?php
-
+echo 'dfdfd';
 if(empty($_POST["name"])){
     die("Name is required");
 }
