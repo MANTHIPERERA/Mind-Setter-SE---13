@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/onBoardQuestions.css">
+</head>
+<body>
+
+<div class="ccl">
+    <p style="font-family:'Jost'; margin-left:50px; font-size:30px; color: #eaeeed;" id="list"> Select Your Grade </p>
+</div>
+
+    <div class = "grade_A">
+        <label>
+            <input type = "radio" name = "grade" value = "advanceLevel" onclick = "displayStreams()"> Advance Level 
+        </label>
+        
+    </div>  
+
+    <div class = "grade_O">
+        <label>
+            <input type = "radio" name = "grade" value = "ordinaryLevel"> Ordinary Level
+        </label>
+    </div>
+
+
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+
+            <div class="swiper-slide card">
+
+                  <!-- <div class = "grade">
+                    <input type = "radio"> A/L </input>
+                  </div>   -->
+
+                </div>
+            </div>
+
+        </div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="Javascript/scriptonboard.js"></script>
+
+</body>
+
+<script>
+    
+    function displayStreams() {
+    // Create a new section for the streams
+    var streamSection = document.createElement("div");
+    streamSection.innerHTML = "<h4>Select Stream</h4>" +
+                                "<label><input type='checkbox' name='stream' value='Maths'>Maths</label><br>" +
+                                "<label><input type='checkbox' name='stream' value='Commerce'>Commerce</label><br>" +
+                                "<label><input type='checkbox' name='stream' value='Bio'>Bio</label><br>";
+    
+    // Add the new section to the page
+    var levelsDiv = document.getElementsByClassName("levels")[0];
+    levelsDiv.appendChild(streamSection);
+    }
+
+</script>
+</html>
