@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form3Example3">Email address</label>
                         <input type="email" id="email" name="email" class="form-control form-control-lg"
-                               value="<?= htmlspecialchars($_POST["email"] ?? "") ?>"
+                               value="<?= htmlspecialchars(isset($_POST["email"]) ? $_POST["email"] : "") ?>"
                                placeholder="Enter a valid email address" />
 
                     </div>
