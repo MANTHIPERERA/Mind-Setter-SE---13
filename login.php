@@ -27,9 +27,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 
             session_regenerate_id();
 
-            $_SESSION["user_id"] = $user["id"];
+          $_SESSION["user_id"] = $user["id"];
 
-            header("Location: index.php");
+           $sql="select * from userdetail where user_id=1";
+            $result1 = $mysqli->query($sql);
+            $catAllow=false;
+            while($row=mysqli_fetch_array($result1)){
+               $_SESSION['cat_id']=$row['cat_id'];
+               $catAllow=true;
+            }
+            
+            if($catAllow){
+                echo 'dashboard';
+             header("Location: index.php");
+               
+            }else{
+                echo 'quiz';
+                header("Location: onboardquestions.html");
+            }
+
+           // header("Location: index.php");
             exit;
         }
     }
