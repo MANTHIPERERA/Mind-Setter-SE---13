@@ -66,9 +66,6 @@ if (isset($_SESSION["user_id"])) {
 <?php include "component/grades.php"; ?> 
 
 
-
-
-
 <div class="row">
     <div class="container-xlll p-5 ">
         <div class="textH" style="font-size:4vw;">Our Teachers<br><br></div>
