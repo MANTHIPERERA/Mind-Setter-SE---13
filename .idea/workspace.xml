@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Javascript/scriptonboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watchedVideos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2023_10_03_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_2023_10_03_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onboardquestions.html" beforeDir="false" afterPath="$PROJECT_DIR$/onboardquestions.html" afterDir="false" />
+    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="adaptive test">
+      <change beforePath="$PROJECT_DIR$/watchedVideos.html" beforeDir="false" afterPath="$PROJECT_DIR$/watchedVideos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JavaScript Debug.watchedVideos.html">
+  <component name="RunManager" selected="JavaScript Debug.myProgress.html">
+    <configuration name="myProgress.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind-Setter-SE---13/myProgress.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="navigazion.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mind-Setter/component/navigazion.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -64,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.myProgress.html" />
         <item itemvalue="JavaScript Debug.watchedVideos.html" />
         <item itemvalue="JavaScript Debug.onboardquestions.html" />
         <item itemvalue="JavaScript Debug.navigazion.php" />
@@ -80,9 +80,21 @@
       <updated>1680409511804</updated>
       <workItem from="1680409515586" duration="314000" />
     </task>
+    <task id="LOCAL-00001" summary="adaptive test">
+      <created>1680439750204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680439750204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adaptive test" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptive test" />
   </component>
 </project>
