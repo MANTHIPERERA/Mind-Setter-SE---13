@@ -1,7 +1,7 @@
 <div class="row">
     <nav class="navbar navbar-expand-lg bg-light shadow">
 
-        <img src="Assets/Logo.png" alt="brand image" width="7%" style="position: relative;left: 15px;">
+        <img src="/Assets/Logo.png" alt="brand image" width="7%" style="position: relative;left: 15px;">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
 
             <ul class="navbar-nav ms-auto p-3 ">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link m-3 " style="color:#0ABE9E"> Home </a>
+                    <a href="/index.php" class="nav-link m-3 " style="color:#0ABE9E"> Home </a>
                 </li>
 
                 <li class="nav-item">
