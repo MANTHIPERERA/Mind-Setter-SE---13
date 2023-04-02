@@ -60,115 +60,13 @@ if (isset($_SESSION["user_id"])) {
 
 <!--    <p><a href="login.php">Log in</a> or <a href="singup.html">sign up</a></p>-->
 
-<div class="row">
-    <nav class="navbar navbar-expand-lg bg-light shadow">
 
-        <img src="Assets/Logo.png" alt="brand image" width="7%" style="position: relative;left: 15px;">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-            <ul class="navbar-nav ms-auto p-3 ">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link m-3 " style="color:#0ABE9E"> Home </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#About US" class="nav-link m-3" style="color:#0ABE9E"> About Us </a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#FAQ" class="nav-link m-3" style="color:#0ABE9E"> FAQ </a>
-                </li>
-
-                <li class="nav-item">
-                    <button class="btn btn-outline-success m-3" style="font-size: 24px;" type="submit"
-                            onclick="location.href='login.php'">Login
-                    </button>
-                </li>
-
-                <li class="nav-item">
-                    <button class="btn btn-outline-success m-3" style="font-size: 24px;" type="submit"
-                            onclick="location.href='singup.html'">Sign Up
-                    </button>
-                </li>
-
-            </ul>
-
-        </div>
-    </nav>
-</div>
-<div class="row">
-
-    <div class="container-xxl">
-        <div class="text1 p-5" style="font-size:4vw;">
-            How our website works
-        </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-            </div>
-
-            <div class="carousel-inner" style="text-align: center; padding: 30px;">
-                <div class="carousel-item active">
-                    <img src="Assets/SliderImage1.png" class="testimonial-image" alt="Slider image 1" height="ms-auto"
-                         width="60%">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="Assets/SliderImage2.png" class="testimonial-image" alt="Slider Image 2" height="ms-auto"
-                         width="60%">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="Assets/SliderImage3.png" class="testimonial-image" alt="Slider Image 3" height="ms-auto"
-                         width="60%">
-                </div>
-
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="container-xl p-5 ">
-        <div class="textH" style="font-size:4vw;">Grades we teach<br><br></div>
+<?php include "component/navigazion.php";?> 
+<?php include "component/howWork.php"; ?> 
+<?php include "component/grades.php"; ?> 
 
 
-        <div class="d-grid gap-1" style="position: relative;left: 130px;">
-            <div class="button1 ">
-                <button class="btn1 btn-primary btn-lg m-2  " type="button">Grade - 10</button>
-                <button class="btn1 btn-primary btn-lg  " type="button">Grade - 11</button>
-            </div>
-            <div class="button1">
-                <button class="btn1 btn-primary btn-lg m-2 " type="button">Grade - 12</button>
-                <button class="btn1 btn-primary btn-lg " type="button">Grade - 13</button>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
 <div class="row">

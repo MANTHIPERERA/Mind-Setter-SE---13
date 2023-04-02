@@ -1,5 +1,4 @@
 <?php
-
 $host = "localhost";
 $dbname = "mind_setter";
 $username = "root";
