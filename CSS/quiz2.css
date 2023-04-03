@@ -178,3 +178,10 @@ section .card .image img{
 
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+.swiper-slide{
+    width: 1000px;
+    height: 1000px;
+    position: center;
+    border-radius: 50px;
+}

@@ -28,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
             session_regenerate_id();
 
           $_SESSION["user_id"] = $user["id"];
+          $isOnBoard = $user["isOnBoard"];
 
 //           $sql="select * from userdetail where user_id=1";
 //            $result1 = $mysqli->query($sql);
@@ -47,8 +48,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 //                header("Location: onboardquestions.html");
 //            }
 
-            header("Location: index.php");
-            exit;
+            if ($isOnBoard == 1){
+                header("Location: index.php");
+                exit;
+            }else{
+                header("Location: onboardquestions.html");
+            }
+
         }
     }
 
