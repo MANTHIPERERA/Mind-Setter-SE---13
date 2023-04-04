@@ -86,3 +86,14 @@ class SignupTest extends TestCase
         $this->mysqli->close();
     }
 }
+
+$host = "localhost";  // replace with your database host
+$user = "username";   // replace with your database username
+$password = "password";  // replace with your database password
+$database = "database_name";  // replace with your database name
+
+$mysqli = new mysqli($host, $user, $password, $database);
+
+if ($mysqli->connect_errno) {
+    die("Failed to connect to MySQL: " . $mysqli->connect_error);
+}
