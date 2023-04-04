@@ -44,6 +44,10 @@
           <a href = "#FAQ" class = "nav-link m-3" style = "color:#0ABE9E"> FAQ </a>
         </li>
 
+        <li class = "nav-item">
+          <a href = "logout.php" class = "nav-link m-3" style = "color:#0ABE9E"> Log Out </a>
+        </li>
+
       </ul>
 
     </div>
@@ -116,17 +120,19 @@
 
 
       <div class="col mb-4 md- mb-lg-1 "><br>
+
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-3" role="group" aria-label="First group">
+
             <a href = "watchedVideos.html"> 
-              <button class="btn5 btn-outline-primary">Watched Videos</button> 
+              <button class="btn5 btn-outline-primary m2">Watched Videos</button> 
             </a>
 
-            <button class="btn5 btn-outline-primary">
+            <button class="btn5 btn-outline-primary m2">
               <a href="http://localhost:8000/recommendations/<?= htmlspecialchars($user['id']) ?>">Explore Videos</a> 
             </button>
 
-            <a href = "myProgress.html"> <button class="btn5 btn-outline-primary">My progress</button> </a>
+            <a href = "myprog.html"> <button class="btn5 btn-outline-primary m2">My progress</button> </a>
           </div>
         </div>
       </div>
@@ -140,7 +146,7 @@
   <a href="http://localhost:8000/recommendations/<?= htmlspecialchars($user['id']) ?>">Click to generate movie recommendations</a>   
 </button> -->
 
-<p><a href="logout.php">Log out</a></p>
+<!-- <p><a href="logout.php">Log out</a></p> -->
 
 </body>
 </html>
