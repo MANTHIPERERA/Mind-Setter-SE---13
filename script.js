@@ -13,7 +13,7 @@ const scoreText = document.querySelector('#score');
 
 let leaderboardData = [];
 let score = 0;
-// if startQuiz button clicked
+// if startQuiz button clicked 
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show info box
 }
