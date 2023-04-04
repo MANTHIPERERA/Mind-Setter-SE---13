@@ -48,12 +48,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
 //                header("Location: onboardquestions.html");
 //            }
 
-            if ($isOnBoard == 1){
+//            if ($isOnBoard == 1){
                 header("Location: index.php");
                 exit;
-            }else{
-                header("Location: onboardquestions.html");
-            }
+//            }else{
+//                header("Location: onboardquestions.html");
+//            }
 
         }
     }
