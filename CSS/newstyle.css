@@ -10,6 +10,9 @@
 .carousel-item{
     width: 100%;
   height: auto;
+  background-color: #343333;
+    color:#0ABE9E;
+    font-family: "jost";
 }
 .container-xl{
     background-color: #EEFFFC;
@@ -54,6 +57,24 @@
     color:#222222;
     font-family: "jost";
 }
+
+.cardhead{
+    background-color: #343333;
+    color:#0ABE9E;
+    font-family: "jost";
+}
+
+.card1{
+    background-color: #EEFFFC;
+    color: #222222;
+    font-family: "jost";
+    border-radius: 10px;
+    border-color: #EEFFFC;
+   
+
+}
+
+
 
 body {
    
