@@ -36,6 +36,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c0d06742-1cf5-4aec-9c4d-a717ec565295" />
+        <option name="url" value="https://github.com/MANTHIPERERA/Mind-Setter-SE---13.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CSS/quiz2.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Javascript/index.js" root0="SKIP_INSPECTION" />
