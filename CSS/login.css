@@ -6,3 +6,25 @@ height: 1px;
 background: #eee;
 }
 
+.btn {
+   
+
+    background-color: #222222;
+   
+    
+    color: #00FFD1;
+    
+    text-decoration: none;
+    
+    font-family:"jost";
+    
+    border-radius: 10px;
+    padding-left: 9.5rem; 
+    padding-right: 9.5rem;
+    }
+
+
+.btn:hover{background-color: #00FFD1;
+            color: #222222;
+            transition:0.5s
+}
