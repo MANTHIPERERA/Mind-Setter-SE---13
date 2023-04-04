@@ -74,9 +74,8 @@ if (isset($_SESSION["user_id"])) {
                 <div class="card h-100">
                     <img src="Assets/Teacher1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Teacher 1</h5>
+                        <p class="card-text">Description about teacher</p>
                     </div>
                 </div>
             </div>
@@ -84,8 +83,8 @@ if (isset($_SESSION["user_id"])) {
                 <div class="card h-100">
                     <img src="Assets/Teacher2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
+                        <h5 class="card-title">Teacher 2</h5>
+                        <p class="card-text">Discription about teacher 2</p>
                     </div>
                 </div>
             </div>
@@ -93,9 +92,8 @@ if (isset($_SESSION["user_id"])) {
                 <div class="card h-100">
                     <img src="Assets/Teacher1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <h5 class="card-title">Teacher 3</h5>
+                        <p class="card-text">Discription about teacher 3</p>
                     </div>
                 </div>
             </div>
@@ -103,9 +101,8 @@ if (isset($_SESSION["user_id"])) {
                 <div class="card h-100">
                     <img src="Assets/Teacher2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Teacher 4</h5>
+                        <p class="card-text">Discription about teacher 4</p>
                     </div>
                 </div>
             </div>

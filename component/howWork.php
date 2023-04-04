@@ -16,17 +16,17 @@
 
             <div class="carousel-inner" style="text-align: center; padding: 30px;">
                 <div class="carousel-item active">
-                    <img src="/Assets/SliderImage1.png" class="testimonial-image" alt="Slider image 1" height="ms-auto"
+                    <img src="Assets/SliderImage1.png" class="testimonial-image" alt="Slider image 1" height="ms-auto"
                          width="60%">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="/Assets/SliderImage2.png" class="testimonial-image" alt="Slider Image 2" height="ms-auto"
+                    <img src="Assets/SliderImage2.png" class="testimonial-image" alt="Slider Image 2" height="ms-auto"
                          width="60%">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="/Assets/SliderImage3.png" class="testimonial-image" alt="Slider Image 3" height="ms-auto"
+                    <img src="Assets/SliderImage3.png" class="testimonial-image" alt="Slider Image 3" height="ms-auto"
                          width="60%">
                 </div>
 
