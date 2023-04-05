@@ -2,8 +2,33 @@ from flask import Blueprint, render_template #flask is used in this project for 
 from MovieLens import MovieLens #MovieLens class is used to get the data from the dataset
 from surprise import SVD #imports SVD (Singular Value Decomposition) class from surprise module
 #SVD is a matrix factorization algorithm that is used to make predictions in collaborative filtering. 
+import unittest
+import test_recommendation
 
+class TestRecommendations(unittest.TestCase):
 
+    def setUp(self):
+        self.app = app.test_client()
+
+    def test_Button(self):
+        response = self.app.get('/ButtonPage/')
+        self.assertEqual(response.status_code, 200)
+        print("Button test passed")
+
+    def test_BuildAntiTestSetForUser(self):
+        trainset = ml.loadMovieLensLatestSmall()
+        anti_testset = BuildAntiTestSetForUser(1, trainset)
+        self.assertIsInstance(anti_testset, list)
+        print("BuildAntiTestSetForUser test passed")
+
+    def test_home(self):
+        response = self.app.get('/recommendations/1')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b"We recommend:", response.data)
+        print("Home test passed")
+
+if __name__ == '__main__':
+    unittest.main()
 
 
 views = Blueprint(__name__,"views") 
@@ -52,7 +77,7 @@ def BuildAntiTestSetForUser(userId, trainset):
 @views.route("/recommendations/<userId>",methods=["GET"]) #flask route added to handle GET requests and calls the home function with the userId as a parameter
 def home(userId):
     # Pick an arbitrary test subject
-
+    
     ml = MovieLens()
     print(f"Getting recommendations for userId: {userId}")    
     print("Loading movie ratings...")
@@ -99,4 +124,6 @@ def home(userId):
     recommended_movies = [ml.getMovieName(ratings[0]) for ratings in recommendations[:10]]
 
     return render_template("recommendations.html", recommended_movies=recommended_movies)
+
+
 
