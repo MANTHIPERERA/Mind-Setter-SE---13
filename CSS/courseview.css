@@ -26,3 +26,7 @@
     padding-right: 1rem;
     padding-top: 1rem;
 }
+
+.btnx:hover{
+    background-color: #c6c4c4;
+}
