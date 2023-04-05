@@ -29,4 +29,5 @@
 
 .btnx:hover{
     background-color: #c6c4c4;
+    transition: 0.5s;
 }
