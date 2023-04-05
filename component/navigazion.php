@@ -16,7 +16,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#About US" class="nav-link m-3" style="color:#0ABE9E"> About Us </a>
+                    <a href="AboutUs.html" class="nav-link m-3" style="color:#0ABE9E"> About Us </a>
                 </li>
 
                 <li class="nav-item">
