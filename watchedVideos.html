@@ -17,6 +17,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Marvel:wght@700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Font Awesome library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 
 
@@ -39,7 +43,7 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
 
-      <h1 >Watched Videos</h1>
+      <h1 >Watch Videos</h1>
 
       <ul class="navbar-nav ms-auto p-3 ">
         <li class = "nav-item">
@@ -71,7 +75,7 @@
 
     
 
-      <button type="button" class="btn1 btn-outline-primary m-3 rounded-4">Watched Videos</button> <br>
+      <button type="button" class="btn1 btn-outline-primary m-3 rounded-4">Watch Videos</button> <br>
 
 
       <br>
@@ -104,64 +108,47 @@
   </div>
   
 
+
+
   <div class="col-lg-2 py-4">
+    <iframe href = "videopage.html" class = "rounded-4" width="700" height="400" src="https://www.youtube.com/embed/D0UnqGm_miA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    
+    <div class="rating-stars">
+      <i class="far fa-star" data-rating="1"></i>
+      <i class="far fa-star" data-rating="2"></i>
+      <i class="far fa-star" data-rating="3"></i>
+      <i class="far fa-star" data-rating="4"></i>
+      <i class="far fa-star" data-rating="5"></i>
 
-    <div class="card">
-      <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
-              class="card-img-top"
-              alt="Waterfall"
-      />
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk
-          of the card's content.
-        </p>
-
-      </div>
-    </div>
 
   </div>
-  <div class="col-lg-2 py-4">
-    <div class="card">
-      <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
-              class="card-img-top"
-              alt="Waterfall"
-      />
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk
-          of the card's content.
-        </p>
-
-      </div>
-    </div>
-
-  </div>
-  <div class="col-lg-2 py-4">
-    <div class="card">
-      <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
-              class="card-img-top"
-              alt="Waterfall"
-      />
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk
-          of the card's content.
-        </p>
-
-      </div>
-    </div>
-
   </div>
 </div>
+
+
+</body>
+<script>
+  $(document).ready(function() {
+      $('.rating-stars i').click(function() {
+          var rating = $(this).data('rating');
+          $('.rating-stars i').removeClass('fas').addClass('far');
+          $(this).prevAll().addBack().removeClass('far').addClass('fas');
+          // Send the rating value to the server using AJAX
+          $.ajax({
+              url: '/submit-rating',
+              method: 'POST',
+              data: { rating: rating },
+              success: function(response) {
+                  // Handle the server response
+              },
+              error: function(jqXHR, textStatus, errorThrown) {
+                  console.log(textStatus, errorThrown);
+              }
+          });
+      });
+  });
+</script>
+</html>
  
 
 
