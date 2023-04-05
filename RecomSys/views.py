@@ -3,6 +3,8 @@ from MovieLens import MovieLens #MovieLens class is used to get the data from th
 from surprise import SVD #imports SVD (Singular Value Decomposition) class from surprise module
 #SVD is a matrix factorization algorithm that is used to make predictions in collaborative filtering. 
 
+
+
 views = Blueprint(__name__,"views") 
 
 @views.route("/ButtonPage/") #route to button page
@@ -96,3 +98,4 @@ def home(userId):
     recommended_movies = [ml.getMovieName(ratings[0]) for ratings in recommendations[:10]]
 
     return render_template("recommendations.html", recommended_movies=recommended_movies)
+
