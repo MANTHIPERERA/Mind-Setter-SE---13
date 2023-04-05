@@ -1,10 +1,3 @@
-.lessons {
-    position: center;
-    text-align:left;
-    border: 1px black solid;
-    border-radius: 20px;
-}
-
 .button1{
     border-radius: 50%;
     background-color: #F1F0F0;
@@ -17,4 +10,23 @@
 .videoForm {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.d-grid{
+   font-family: "Jost"; 
+}
+
+.btnx{
+    border-radius: 10px;
+    font-size: 3.5vh;
+    background-color: #e9e7e7;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.btnx:hover{
+    background-color: #c6c4c4;
+    transition: 0.5s;
 }
