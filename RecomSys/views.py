@@ -5,6 +5,7 @@ from surprise import SVD #imports SVD (Singular Value Decomposition) class from 
 
 
 
+
 views = Blueprint(__name__,"views") 
 
 @views.route("/ButtonPage/") #route to button page
