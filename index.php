@@ -66,9 +66,9 @@ if (isset($_SESSION["user_id"])) {
 <?php include "component/grades.php"; ?> 
 
 
-<div class="carousel-inner py-5" style="    background: #343333;">
+<div class="carousel-inner py-5" style="background: #343333; color:#0ABE9E">
   <div class="cardhead px-4">
-    <h3  style="font-size: 4.5vw;">Grades we teach</h3><br></div>
+    <h3  style="font-size: 4.5vw;">Our Teachers</h3><br></div>
   <!-- Single item -->
   <div class="carousel-item active">
     
@@ -76,12 +76,12 @@ if (isset($_SESSION["user_id"])) {
       <div class="row">
         <div class="col-lg-3">
           <div class="card">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp" class="card-img-top" alt="Waterfall"/>
+          <img src="Assets/Teacher.jpg" class="card-img-top" alt="Waterfall"/>
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;">Lara De Mel</h5>
               <p class="card-text" style="text-align: center;">
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
+                A physics Teacher with more than 5 years of experience. <br>
+
               </p>
               
             </div>
@@ -91,15 +91,15 @@ if (isset($_SESSION["user_id"])) {
         <div class="col-lg-3">
           <div class="card">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              src="Assets/Teacher.jpg"
               class="card-img-top"
               alt="Waterfall"
             />
             <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">Card title</h5>
+              <h5 class="card-title" style="text-align: center;">Lara De Mel</h5>
               <p class="card-text" style="text-align: center;">
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
+                A physics Teacher with more than 5 years of experience. <br>
+                
               </p>
               
             </div>
@@ -109,16 +109,16 @@ if (isset($_SESSION["user_id"])) {
         <div class="col-lg-3">
           <div class="card">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              src="Assets/Teacher.jpg"
               class="card-img-top"
               alt="Waterfall"
             />
             <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">Card title</h5>
-              <p class="card-text" style="text-align: center;">
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-              </p>
+                <h5 class="card-title" style="text-align: center;">Lara De Mel</h5>
+                <p class="card-text" style="text-align: center;">
+                A physics Teacher with more than 5 years of experience. <br>
+                
+                </p>
               
             </div>
           </div>
@@ -127,16 +127,16 @@ if (isset($_SESSION["user_id"])) {
         <div class="col-lg-3">
           <div class="card">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              src="Assets/Teacher.jpg"
               class="card-img-top"
               alt="Waterfall"
             />
             <div class="card-body">
-              <h5 class="card-title" style="text-align: center;">Card title</h5>
-              <p class="card-text" style="text-align: center;">
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-              </p>
+                <h5 class="card-title" style="text-align: center;">Lara De Mel</h5>
+                <p class="card-text" style="text-align: center;">
+                A physics Teacher with more than 5 years of experience. <br>
+                
+                </p>
               
             </div>
           </div>
@@ -156,7 +156,13 @@ if (isset($_SESSION["user_id"])) {
 <!-- Inner -->
 </div>
 
-    
+    <section id="footersection">
+    <p style="font-family:'Marvel'; text-align: center; font-size:2vw; color: #222222;" ><br>Designed and developed by<br>
+        Crusaders</p>
+
+    </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
