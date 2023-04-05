@@ -11,6 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Marvel:wght@700&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href="CSS/styles.css">
     <link rel = "stylesheet" href="CSS/RecomSys.css">
+      <!-- jQuery library -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <!-- Font Awesome library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 
 
   </head>
@@ -101,14 +107,22 @@
           {% for movie in recommended_movies %}
             
             <iframe href = "videopage.html" class = "rounded-4" width="300"  src="https://www.youtube.com/embed/D0UnqGm_miA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <li>{{ movie }}</li>  <button> test button </button> <br><br>
+            <li>{{ movie }}</li>
+
+            <div class="rating-stars">
+                <i class="far fa-star" data-rating="1"></i>
+                <i class="far fa-star" data-rating="2"></i>
+                <i class="far fa-star" data-rating="3"></i>
+                <i class="far fa-star" data-rating="4"></i>
+                <i class="far fa-star" data-rating="5"></i>
+            </div>
+
+            <br>
             
           {% endfor %}
         </ul>
 
 
-        
-        
       </div>
 
     
@@ -120,4 +134,27 @@
 
     
   </body>
+
+  <script>
+      $(document).ready(function() {
+          $('.rating-stars i').click(function() {
+              var rating = $(this).data('rating');
+              $('.rating-stars i').removeClass('fas').addClass('far');
+              $(this).prevAll().addBack().removeClass('far').addClass('fas');
+              // Send the rating value to the server using AJAX
+              $.ajax({
+                  url: '/submit-rating',
+                  method: 'POST',
+                  data: { rating: rating },
+                  success: function(response) {
+                      // Handle the server response
+                  },
+                  error: function(jqXHR, textStatus, errorThrown) {
+                      console.log(textStatus, errorThrown);
+                  }
+              });
+          });
+      });
+  </script>
+
 </html>
