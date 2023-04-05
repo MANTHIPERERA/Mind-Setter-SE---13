@@ -1,4 +1,4 @@
-
+<!-- The componants will be included and reused to the html pages for consistancy -->
 
 <div class="row">
     <div class="container-xl p-5 " >
