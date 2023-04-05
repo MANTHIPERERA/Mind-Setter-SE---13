@@ -5,10 +5,13 @@
     border-radius: 20px;
 }
 
-.lesson_1 {
-    padding-top: 8px;
-    padding-bottom: 5px;
-    padding-left: 15px;
+.button1{
+    border-radius: 50%;
+    background-color: #F1F0F0;
+    border: none;
+    color: #0AB39E;
+    font-size: 6vh;
+
 }
 
 .videoForm {
