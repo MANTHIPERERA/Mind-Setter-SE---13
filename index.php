@@ -66,50 +66,95 @@ if (isset($_SESSION["user_id"])) {
 <?php include "component/grades.php"; ?> 
 
 
-<div class="row">
-    <div class="container-xlll p-5 ">
-        <div class="textH" style="font-size:4vw;">Our Teachers<br><br></div>
-        <div class="row row-cols-1 row-cols-md-4 g-5">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/Teacher1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Teacher 1</h5>
-                        <p class="card-text">Description about teacher</p>
-                    </div>
-                </div>
+<div class="carousel-inner py-5" style="    background: #343333;">
+  <div class="cardhead px-4">
+    <h3  style="font-size: 4.5vw;">Grades we teach</h3><br></div>
+  <!-- Single item -->
+  <div class="carousel-item active">
+    
+    <div class="container" style="color: black;">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card">
+          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp" class="card-img-top" alt="Waterfall"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Lara De Mel</h5>
+              <p class="card-text" style="text-align: center;">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/Teacher2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Teacher 2</h5>
-                        <p class="card-text">Discription about teacher 2</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/Teacher1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Teacher 3</h5>
-                        <p class="card-text">Discription about teacher 3</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/Teacher2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Teacher 4</h5>
-                        <p class="card-text">Discription about teacher 4</p>
-                    </div>
-                </div>
-            </div>
+          </div>
+          
         </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Card title</h5>
+              <p class="card-text" style="text-align: center;">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Card title</h5>
+              <p class="card-text" style="text-align: center;">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Card title</h5>
+              <p class="card-text" style="text-align: center;">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              
+            </div>
+          </div>
+          
+        </div>
+        
 
-
+        
+        
+        
+        
+      </div>
     </div>
+  </div>
+
+ 
+<!-- Inner -->
+</div>
 
     
 
