@@ -1,0 +1,144 @@
+Index: CSS/newstyle.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.container-xxl{\r\n    background-color: #343333;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n    \r\n    \r\n    \r\n}\r\n.carousel-item{\r\n    width: 100%;\r\n  height: auto;\r\n}\r\n.container-xl{\r\n    background-color: #EEFFFC;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n    \r\n    \r\n}\r\n.d-grid{\r\n    background-color: #EEFFFC;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n\r\n    \r\n}\r\n.container-xlll{\r\n    background-color: #343333;\r\n    color:#0ABE9E;\r\n    font-family: \"jost\";\r\n    \r\n}\r\n.btn1{\r\n    background-color: #222222;\r\n    border: none;\r\n    color: #00FFD1;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-family:\"jost\";\r\n    font-size: 2.5rem;\r\n    border-radius: 10px;\r\n    width: 35%;\r\n\r\n    \r\n}\r\n\r\n.btn1:hover{background-color: #00FFD1;\r\n    color: #222222;\r\n    transition: 0.5s;\r\n}\r\n.navbar-nav{\r\n    font-size: 1.5rem;\r\n}\r\n\r\n\r\n.row1{\r\n    color:#222222;\r\n    font-family: \"jost\";\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CSS/newstyle.css b/CSS/newstyle.css
+--- a/CSS/newstyle.css	(revision e68765ec3d1db813daeb270c9e4bc2399787d10b)
++++ b/CSS/newstyle.css	(date 1680694840791)
+@@ -3,8 +3,6 @@
+     color:#0ABE9E;
+     font-family: "jost";
+     
+-    
+-    
+ }
+ .carousel-item{
+     width: 100%;
+@@ -40,7 +38,6 @@
+     font-size: 2.5rem;
+     border-radius: 10px;
+     width: 35%;
+-
+     
+ }
+ 
+Index: component/howWork.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div class=\"row\">\r\n\r\n    <div class=\"container-xxl\">\r\n        <div class=\"text1 p-5\" style=\"font-size:4vw;\">\r\n            How our website works\r\n        </div>\r\n        <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-bs-ride=\"carousel\">\r\n            <div class=\"carousel-indicators\">\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"0\" class=\"active\"\r\n                        aria-current=\"true\" aria-label=\"Slide 1\"></button>\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"1\"\r\n                        aria-label=\"Slide 2\"></button>\r\n                <button type=\"button\" data-bs-target=\"#carouselExampleIndicators\" data-bs-slide-to=\"2\"\r\n                        aria-label=\"Slide 3\"></button>\r\n            </div>\r\n\r\n            <div class=\"carousel-inner\" style=\"text-align: center; padding: 30px;\">\r\n                <div class=\"carousel-item active\">\r\n                    <img src=\"Assets/SliderImage1.png\" class=\"testimonial-image\" alt=\"Slider image 1\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n                <div class=\"carousel-item\">\r\n                    <img src=\"Assets/SliderImage2.png\" class=\"testimonial-image\" alt=\"Slider Image 2\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n                <div class=\"carousel-item\">\r\n                    <img src=\"Assets/SliderImage3.png\" class=\"testimonial-image\" alt=\"Slider Image 3\" height=\"ms-auto\"\r\n                         width=\"60%\">\r\n                </div>\r\n\r\n            </div>\r\n\r\n            <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\"\r\n                    data-bs-slide=\"prev\">\r\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"visually-hidden\">Previous</span>\r\n            </button>\r\n\r\n            <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleIndicators\"\r\n                    data-bs-slide=\"next\">\r\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"visually-hidden\">Next</span>\r\n            </button>\r\n\r\n        </div>\r\n    </div>\r\n</div>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/component/howWork.php b/component/howWork.php
+--- a/component/howWork.php	(revision e68765ec3d1db813daeb270c9e4bc2399787d10b)
++++ b/component/howWork.php	(date 1680694398528)
+@@ -16,17 +16,17 @@
+ 
+             <div class="carousel-inner" style="text-align: center; padding: 30px;">
+                 <div class="carousel-item active">
+-                    <img src="Assets/SliderImage1.png" class="testimonial-image" alt="Slider image 1" height="ms-auto"
++                    <img src="../Assets/SliderImage1.png" class="testimonial-image" alt="Slider image 1" height="ms-auto"
+                          width="60%">
+                 </div>
+ 
+                 <div class="carousel-item">
+-                    <img src="Assets/SliderImage2.png" class="testimonial-image" alt="Slider Image 2" height="ms-auto"
++                    <img src="../Assets/SliderImage2.png" class="testimonial-image" alt="Slider Image 2" height="ms-auto"
+                          width="60%">
+                 </div>
+ 
+                 <div class="carousel-item">
+-                    <img src="Assets/SliderImage3.png" class="testimonial-image" alt="Slider Image 3" height="ms-auto"
++                    <img src="../Assets/SliderImage3.png" class="testimonial-image" alt="Slider Image 3" height="ms-auto"
+                          width="60%">
+                 </div>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"da15a6ca-10aa-4b68-beac-f26d28bae298\" name=\"Changes\" comment=\"unit test\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/RecomSys/templates/recommendations.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/RecomSys/templates/recommendations.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Chirantha-Branch\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"c0d06742-1cf5-4aec-9c4d-a717ec565295\" />\r\n        <option name=\"url\" value=\"https://github.com/MANTHIPERERA/Mind-Setter-SE---13.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/CSS/quiz2.css\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/Javascript/index.js\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/RecomSys/app.py\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/RecomSys/templates/recommendations.html\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/first-index.html\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/singup-success.html\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/singup.html\" root0=\"SKIP_INSPECTION\" />\r\n    <setting file=\"file://$PROJECT_DIR$/studentprofile.html\" root0=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP\">\r\n    <include_path>\r\n      <path value=\"\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Nr5lOACZrgPO1Q9kQSrKi36hMM\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"JavaScript Debug.index.php\">\r\n    <configuration name=\"index.php\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind-Setter-SE---13/Mind-Setter-SE---13/index.php\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"onboardquestions.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind-Setter-SE---13/onboardquestions.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"singup.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind-Setter-SE---13/singup.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"studentprofile.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind-Setter-SE---13/studentprofile.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"watchedVideos.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/Mind-Setter-SE---13/watchedVideos.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JavaScript Debug.index.php\" />\r\n        <item itemvalue=\"JavaScript Debug.onboardquestions.html\" />\r\n        <item itemvalue=\"JavaScript Debug.studentprofile.html\" />\r\n        <item itemvalue=\"JavaScript Debug.singup.html\" />\r\n        <item itemvalue=\"JavaScript Debug.watchedVideos.html\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"da15a6ca-10aa-4b68-beac-f26d28bae298\" name=\"Changes\" comment=\"\" />\r\n      <created>1680409511804</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1680409511804</updated>\r\n      <workItem from=\"1680409515586\" duration=\"314000\" />\r\n      <workItem from=\"1680531014153\" duration=\"2268000\" />\r\n      <workItem from=\"1680543248669\" duration=\"447000\" />\r\n      <workItem from=\"1680592461378\" duration=\"9752000\" />\r\n      <workItem from=\"1680675889565\" duration=\"1102000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"adaptive test\">\r\n      <created>1680439750204</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680439750204</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"adaptive test\">\r\n      <created>1680440785917</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680440785917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"adaptive test\">\r\n      <created>1680440798674</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680440798674</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"adaptive test\">\r\n      <created>1680543635390</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680543635390</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"adaptive test\">\r\n      <created>1680543648124</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680543648124</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"unit test\">\r\n      <created>1680650868904</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680650868904</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"unit test\">\r\n      <created>1680650954732</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680650954732</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"adaptive test\" />\r\n    <MESSAGE value=\"unit test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"unit test\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e68765ec3d1db813daeb270c9e4bc2399787d10b)
++++ b/.idea/workspace.xml	(date 1680706104875)
+@@ -4,9 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="unit test">
++    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="five star">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CSS/newstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/newstyle.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/RecomSys/templates/recommendations.html" beforeDir="false" afterPath="$PROJECT_DIR$/RecomSys/templates/recommendations.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/component/howWork.php" beforeDir="false" afterPath="$PROJECT_DIR$/component/howWork.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -122,7 +124,8 @@
+       <workItem from="1680531014153" duration="2268000" />
+       <workItem from="1680543248669" duration="447000" />
+       <workItem from="1680592461378" duration="9752000" />
+-      <workItem from="1680675889565" duration="1102000" />
++      <workItem from="1680675889565" duration="10313000" />
++      <workItem from="1680704049798" duration="1370000" />
+     </task>
+     <task id="LOCAL-00001" summary="adaptive test">
+       <created>1680439750204</created>
+@@ -173,7 +176,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680650954732</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="five star">
++      <created>1680677230188</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1680677230188</updated>
++    </task>
++    <task id="LOCAL-00009" summary="five star">
++      <created>1680677245155</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1680677245155</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -193,7 +210,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="adaptive test" />
+     <MESSAGE value="unit test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="unit test" />
++    <MESSAGE value="five star" />
++    <option name="LAST_COMMIT_MESSAGE" value="five star" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: RecomSys/templates/recommendations.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n<html>\r\n  <head>\r\n    <title>Movie Recommendations</title>\r\n\r\n    <link rel = \"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor\" crossorigin=\"anonymous\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Marvel:wght@700&display=swap\" rel=\"stylesheet\">\r\n    <link rel = \"stylesheet\" href=\"CSS/styles.css\">\r\n    <link rel = \"stylesheet\" href=\"CSS/RecomSys.css\">\r\n      <!-- jQuery library -->\r\n      <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\r\n\r\n      <!-- Font Awesome library -->\r\n      <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css\" />\r\n\r\n\r\n\r\n  </head>\r\n  <body>\r\n\r\n    <section id=\"title\">\r\n\r\n      <!-- Nav Bar -->\r\n\r\n      <nav class = \"navbar navbar-expand-lg bg-light shadow\">\r\n          \r\n              <img src = \"{{url_for('static', filename = 'Logo.png')}}\" class = \"p-3\" alt = \"brand image\" height = \"100px\">\r\n\r\n          <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarTogglerDemo02\" aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n              <span class=\"navbar-toggler-icon\"></span>\r\n          </button>\r\n  \r\n          <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo02\" >\r\n              \r\n              <ul class=\"navbar-nav ms-auto p-3 \">\r\n                  <li class = \"nav-item\"> \r\n                      <a href = \"index.html\" class = \"nav-link p-3\" style = \"color:#0ABE9E\"> Home </a>\r\n                  </li>\r\n  \r\n                  <li class = \"nav-item\"> \r\n                      <a href = \"#About US\" class = \"nav-link p-3\" style = \"color:#0ABE9E\" > About Us </a>\r\n                  </li>\r\n  \r\n                  <li class = \"nav-item\"> \r\n                      <a href = \"#FAQ\" class = \"nav-link p-3\" style = \"color:#0ABE9E\"> FAQ </a>\r\n                  </li>\r\n  \r\n                  <li class = \"nav-item\"> \r\n                      User name \r\n                  </li>\r\n\r\n                  <li class = \"nav-item\"> \r\n                      User pfp\r\n                  </li>\r\n                  \r\n              </ul>\r\n          \r\n          </div>\r\n      </nav>\r\n      \r\n\r\n  </section >\r\n\r\n  <div class=\"container text-left\">\r\n    <div class=\"row\">\r\n\r\n      <div class=\"col-md-4 p-3\">\r\n\r\n        <div class = \"shadow-lg p-4 mb-5 bg-body-tertiary rounded\">\r\n          \r\n            <button type=\"button\" class=\"btn btn-outline-primary m-3 rounded-4\">Watched Videos</button> <br>\r\n            <button type=\"button\" class=\"btn btn-outline-primary m-3 rounded-4\">Explore</button> <br>\r\n            <button type=\"button\" class=\"btn btn-outline-primary m-3 rounded-4\">My Progress</button> <br><br>\r\n\r\n\r\n            <div class=\"card bg-dark text-white rounded-4\" style=\"width: 16rem;\">\r\n              <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Time Spent</h5>\r\n                <h6 class=\"card-subtitle mb-2 text-muted\">Card subtitle</h6>\r\n                <p class=\"card-text\">--Time summary goes here --</p>\r\n\r\n              </div>\r\n            </div>\r\n\r\n            <div class = \"container text-left m-3\">\r\n              Keep working, <br>\r\n              You're doing great!\r\n              \r\n            </div>\r\n\r\n        </div>\r\n\r\n        \r\n\r\n      </div>\r\n\r\n\r\n      <div class=\"col-md-8 p-3\">\r\n        <h1>Recommended Lessons for you:</h1>\r\n\r\n    \r\n        <ul>\r\n          {% for movie in recommended_movies %}\r\n            \r\n            <iframe href = \"videopage.html\" class = \"rounded-4\" width=\"300\"  src=\"https://www.youtube.com/embed/D0UnqGm_miA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n            <li>{{ movie }}</li>\r\n\r\n            <div class=\"rating-stars\">\r\n                <i class=\"far fa-star\" data-rating=\"1\"></i>\r\n                <i class=\"far fa-star\" data-rating=\"2\"></i>\r\n                <i class=\"far fa-star\" data-rating=\"3\"></i>\r\n                <i class=\"far fa-star\" data-rating=\"4\"></i>\r\n                <i class=\"far fa-star\" data-rating=\"5\"></i>\r\n            </div>\r\n\r\n            <br>\r\n            \r\n          {% endfor %}\r\n        </ul>\r\n\r\n\r\n      </div>\r\n\r\n    \r\n    </div>\r\n  </div>\r\n\r\n\r\n\r\n\r\n    \r\n  </body>\r\n\r\n  <script>\r\n      $(document).ready(function() {\r\n          $('.rating-stars i').click(function() {\r\n              var rating = $(this).data('rating');\r\n              $('.rating-stars i').removeClass('fas').addClass('far');\r\n              $(this).prevAll().addBack().removeClass('far').addClass('fas');\r\n              // Send the rating value to the server using AJAX\r\n              $.ajax({\r\n                  url: '/submit-rating',\r\n                  method: 'POST',\r\n                  data: { rating: rating },\r\n                  success: function(response) {\r\n                      // Handle the server response\r\n                  },\r\n                  error: function(jqXHR, textStatus, errorThrown) {\r\n                      console.log(textStatus, errorThrown);\r\n                  }\r\n              });\r\n          });\r\n      });\r\n  </script>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/RecomSys/templates/recommendations.html b/RecomSys/templates/recommendations.html
+--- a/RecomSys/templates/recommendations.html	(revision e68765ec3d1db813daeb270c9e4bc2399787d10b)
++++ b/RecomSys/templates/recommendations.html	(date 1680677378030)
+@@ -130,9 +130,6 @@
+   </div>
+ 
+ 
+-
+-
+-    
+   </body>
+ 
+   <script>
