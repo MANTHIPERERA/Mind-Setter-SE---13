@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="unit test">
+    <list default="true" id="da15a6ca-10aa-4b68-beac-f26d28bae298" name="Changes" comment="five star">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecomSys/templates/recommendations.html" beforeDir="false" afterPath="$PROJECT_DIR$/RecomSys/templates/recommendations.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,10 @@
       <workItem from="1680531014153" duration="2268000" />
       <workItem from="1680543248669" duration="447000" />
       <workItem from="1680592461378" duration="9752000" />
-      <workItem from="1680675889565" duration="1102000" />
+      <workItem from="1680675889565" duration="10313000" />
+      <workItem from="1680704049798" duration="6049000" />
+      <workItem from="1680724836268" duration="3726000" />
+      <workItem from="1680847497950" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="adaptive test">
       <created>1680439750204</created>
@@ -173,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680650954732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="five star">
+      <created>1680677230188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680677230188</updated>
+    </task>
+    <task id="LOCAL-00009" summary="five star">
+      <created>1680677245155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680677245155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adaptive test" />
     <MESSAGE value="unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit test" />
+    <MESSAGE value="five star" />
+    <option name="LAST_COMMIT_MESSAGE" value="five star" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

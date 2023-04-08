@@ -60,11 +60,9 @@ if (isset($_SESSION["user_id"])) {
 
 <!--    <p><a href="login.php">Log in</a> or <a href="singup.html">sign up</a></p>-->
 
-
 <?php include "component/navigazion.php";?> 
 <?php include "component/howWork.php"; ?> 
 <?php include "component/grades.php"; ?> 
-
 
 <div class="carousel-inner py-5" style="background: #343333; color:#0ABE9E">
   <div class="cardhead px-4">
