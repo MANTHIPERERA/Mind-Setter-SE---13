@@ -1,3 +1,5 @@
+<!-- The componants will be included and reused to the html pages for consistancy -->
+
 <div class="row">
     <nav class="navbar navbar-expand-lg bg-light shadow">
 
